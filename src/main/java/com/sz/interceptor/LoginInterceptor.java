@@ -4,7 +4,6 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import org.springframework.web.servlet.HandlerInterceptor;
 import org.springframework.web.servlet.ModelAndView;
-//import com.itheima.core.po.User;
 import com.sz.pojo.Student;
 /**
  * 鐧诲綍鎷︽埅鍣?
@@ -20,7 +19,7 @@ public class LoginInterceptor implements HandlerInterceptor {
         if (url.indexOf("/login") >= 0) {
             return true;
         }
-        // 鑾峰彇Session
+
         HttpSession session = request.getSession();
         Student user = (Student) session.getAttribute("USER_SESSION");
 
@@ -28,8 +27,7 @@ public class LoginInterceptor implements HandlerInterceptor {
             return true;
         }
 
-        request.setAttribute("msg", "鎮ㄨ繕娌℃湁鐧诲綍锛岃鍏堢櫥褰曪紒");
-        System.out.println("你还没有登录。。。。。。。。。。。");
+        request.setAttribute("msg", "你还没有登录，不要搞事！");
         request.getRequestDispatcher("login").forward(request, response);
         return false;
     }

@@ -6,7 +6,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.servlet.ModelAndView;
 
+import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
 
 @Controller
@@ -23,8 +25,10 @@ public class StudentController {
         if (student != null){
 
             session.setAttribute("USER_SESSION", student);
+//            System.out.println("before returning the index");
             return "index";
         }
+//        System.out.println("cut-off rule");
         model.addAttribute("errMsg", "账号或密码错误");
         return "login";
     }
@@ -33,6 +37,14 @@ public class StudentController {
     public String toStudent(){
         System.out.println("Test here.");
         return "test";
+    }
+
+    @RequestMapping("/logout")
+    public String logout(HttpSession session){
+        session.invalidate();
+//        servletRequest.setAttribute("errMsg", "你已成功退出");
+//        model.addAttribute("errMsg", "你已成功退出");
+        return "redirect:/";
     }
 
 }
