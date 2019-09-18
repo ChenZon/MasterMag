@@ -10,7 +10,7 @@
     http://www.springframework.org/schema/tx/spring-tx-4.3.xsd
     http://www.springframework.org/schema/context 
     http://www.springframework.org/schema/context/spring-context-4.3.xsd
-    http://www.springframework.org/schema/aop 
+    http://www.springframework.org/schema/aop
     http://www.springframework.org/schema/aop/spring-aop-4.3.xsd">
     <!-- 读取db.properties -->
     <context:property-placeholder location="classpath:db.properties"/>
@@ -38,7 +38,7 @@
 		<property name="dataSource" ref="dataSource" />
 	</bean>	
     <!-- 开启事务注解 -->
-	<tx:annotation-driven transaction-manager="transactionManager"/>
+	<!--<tx:annotation-driven transaction-manager="transactionManager"/>-->
     <!-- 配置MyBatis工厂SqlSessionFactory -->
     <bean id="sqlSessionFactory" 
                            class="org.mybatis.spring.SqlSessionFactoryBean">

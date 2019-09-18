@@ -19,5 +19,12 @@
     "org.springframework.web.servlet.view.InternalResourceViewResolver">
 		<property name="prefix" value="/jsp/" />
 		<property name="suffix" value=".jsp" />
+
 	</bean>
+	<mvc:interceptors>
+		<mvc:interceptor>
+			<mvc:mapping path="/**"/>
+			<bean class="com.sz.interceptor.LoginInterceptor"/>
+		</mvc:interceptor>
+	</mvc:interceptors>
 </beans>

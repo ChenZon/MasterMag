@@ -31,7 +31,6 @@
             letter-spacing: 13px;
         }
         body{
-            /*background-image: url(background.jpg);*/
             background: #92B8B1;
         }
     </style>

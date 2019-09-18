@@ -27,7 +27,12 @@ public class StudentController {
         }
         model.addAttribute("errMsg", "账号或密码错误");
         return "login";
+    }
 
+    @RequestMapping("/toStudent")
+    public String toStudent(){
+        System.out.println("Test here.");
+        return "test";
     }
 
 }

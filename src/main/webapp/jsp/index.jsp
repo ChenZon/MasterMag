@@ -14,7 +14,7 @@
     <title>研究生管理系统</title>
     <link rel="stylesheet" type="text/css" href="https://www.layuicdn.com/layui-v2.5.5/css/layui.css">
 </head>
-<body class="layui-layout-body">
+<body class="layui-layout-body" >
 <div class="layui-layout layui-layout-admin">
 
     <%--<jsp:include page="/jsp/common/header.jsp"></jsp:include>--%>
