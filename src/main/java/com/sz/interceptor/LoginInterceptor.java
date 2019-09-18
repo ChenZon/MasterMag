@@ -5,9 +5,7 @@ import javax.servlet.http.HttpSession;
 import org.springframework.web.servlet.HandlerInterceptor;
 import org.springframework.web.servlet.ModelAndView;
 import com.sz.pojo.Student;
-/**
- * 鐧诲綍鎷︽埅鍣?
- */
+
 public class LoginInterceptor implements HandlerInterceptor {
     @Override
     public boolean preHandle(HttpServletRequest request,

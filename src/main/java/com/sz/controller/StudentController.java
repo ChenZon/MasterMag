@@ -40,11 +40,19 @@ public class StudentController {
     }
 
     @RequestMapping("/logout")
-    public String logout(HttpSession session){
+    public String logout(HttpSession session, Model model){
+
         session.invalidate();
-//        servletRequest.setAttribute("errMsg", "你已成功退出");
+//        servletRequest.setAttribute("errMsg", "你已，成功退出");
+
 //        model.addAttribute("errMsg", "你已成功退出");
         return "redirect:/";
+    }
+
+    @RequestMapping("/register")
+    public String register(){
+        System.out.println("注册页面");
+        return "register";
     }
 
 }

@@ -9,21 +9,18 @@
 <html>
 <head>
     <title>研究生管理系统</title>
-    <link rel="stylesheet" type="text/css" href="https://www.layuicdn.com/layui/css/layui.css">
-    <link rel="stylesheet" type="text/css" href="static/plugins/layui/css/layui.css">
-
+    <%--<link rel="stylesheet" type="text/css" href="https://www.layuicdn.com/layui/css/layui.css">--%>
+    <link rel="stylesheet" type="text/css" href="/static/plugins/layui/css/layui.css">
     <style>
-
-
         .login{
-            background-color: rgba(175, 255, 185, 0.51);
+            background-color: rgba(254, 255, 162, 0.23);
             margin: auto;
             margin-top: 8%;
             padding: 50px;
 
             width: 250px;
             border-radius: 15px;
-            box-shadow: 10px 10px 5px #888888;
+
 
         }
         .system{
@@ -31,7 +28,8 @@
             letter-spacing: 13px;
         }
         body{
-            background: #92B8B1;
+
+            background-image: url("/static/img/background.jpg");
         }
     </style>
 </head>
@@ -68,7 +66,7 @@
         <div class="layui-form-item" style="padding-left: 65px">
             <div class="layui-input-inline">
                 <button type="submit" class="layui-btn" lay-submit="" lay-filter="demo1">登录</button>
-                <button type="reset" class="layui-btn">注册</button>
+                <button type="button" onclick="window.location.href='/jsp/register.jsp'" class="layui-btn">注册</button>
             </div>
         </div>
 
@@ -77,7 +75,8 @@
 
 </div>
 
-<script src="https://www.layuicdn.com/layui/layui.js"></script>
+<%--<script src="https://www.layuicdn.com/layui/layui.js"></script>--%>
+<script src="/static/plugins/layui/layui.js"></script>
 
 </body>
 </html>
