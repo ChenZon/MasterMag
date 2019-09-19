@@ -25,10 +25,10 @@ public class StudentController {
         if (student != null){
 
             session.setAttribute("USER_SESSION", student);
-//            System.out.println("before returning the index");
+            System.out.println("before returning the index");
             return "index";
         }
-//        System.out.println("cut-off rule");
+        System.out.println("cut-off rule");
         model.addAttribute("errMsg", "账号或密码错误");
         return "login";
     }
@@ -52,7 +52,7 @@ public class StudentController {
     @RequestMapping("/register")
     public String register(){
         System.out.println("注册页面");
-        return "register";
+        return "test";
     }
 
 }

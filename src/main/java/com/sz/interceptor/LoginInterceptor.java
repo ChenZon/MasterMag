@@ -14,9 +14,12 @@ public class LoginInterceptor implements HandlerInterceptor {
 
         String url = request.getRequestURI();
 
-        if (url.indexOf("/login") >= 0) {
+        //以下页面不拦截
+        if (url.indexOf("/login") >= 0 || url.indexOf("/register") >= 0) {
             return true;
         }
+
+
 
         HttpSession session = request.getSession();
         Student user = (Student) session.getAttribute("USER_SESSION");
@@ -26,7 +29,7 @@ public class LoginInterceptor implements HandlerInterceptor {
         }
 
         request.setAttribute("msg", "你还没有登录，不要搞事！");
-        request.getRequestDispatcher("login").forward(request, response);
+        request.getRequestDispatcher("/").forward(request, response);
         return false;
     }
     @Override

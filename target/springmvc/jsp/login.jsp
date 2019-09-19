@@ -17,7 +17,6 @@
             margin: auto;
             margin-top: 8%;
             padding: 50px;
-
             width: 250px;
             border-radius: 15px;
 
@@ -65,8 +64,8 @@
 
         <div class="layui-form-item" style="padding-left: 65px">
             <div class="layui-input-inline">
-                <button type="submit" class="layui-btn" lay-submit="" lay-filter="demo1">登录</button>
-                <button type="button" onclick="window.location.href='/jsp/register.jsp'" class="layui-btn">注册</button>
+                <button type="submit" class="layui-btn layui-btn-warm" lay-submit="" lay-filter="demo1">登录</button>
+                <button type="button" onclick="window.location.href='/jsp/register.jsp'" class="layui-btn layui-btn-warm">注册</button>
             </div>
         </div>
 
