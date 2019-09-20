@@ -6,7 +6,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.servlet.ModelAndView;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
@@ -59,14 +58,21 @@ public class StudentController {
     public String check(HttpSession session){
 
         Student student = (Student) session.getAttribute("USER_SESSION");       //获取当前用户id
-        Integer id = student.getId();
-        Integer num = student.getNum();
-        String username = student.getUsername();
-        Integer age = student.getAge();
-
-
-        System.out.println("查看信息");
+        System.out.println("完善信息");
         return "check";
     }
+
+    @RequestMapping("/stuMessage")
+    public String stuMessage(){
+        System.out.println("查看个人信息");
+        return "stuMessage";
+    }
+
+    @RequestMapping("/teaMessage")
+    public String teaMessage(){
+        System.out.println("查看导师信息");
+        return "teaMessage";
+    }
+
 
 }

@@ -13,9 +13,9 @@
     <div class="layui-logo"><a href="/">研究生管理系统</a></div>
     <!-- 头部区域（可配合layui已有的水平导航） -->
     <ul class="layui-nav layui-layout-left">
-        <li class="layui-nav-item"><a href="${ctx}/stu/check">查看个人信息</a></li>
-        <li class="layui-nav-item"><a href="">修改个人信息</a></li>
-        <li class="layui-nav-item"><a href="">查看导师信息</a></li>
+        <li class="layui-nav-item"><a href="${ctx}/stu/check">修改个人信息</a></li>
+        <li class="layui-nav-item"><a href="${ctx}/stu/stuMessage">查看个人信息</a></li>
+        <li class="layui-nav-item"><a href="${ctx}/stu/teaMessage">查看导师信息</a></li>
         <li class="layui-nav-item"><a href="">申报确认导师</a></li>
         <li class="layui-nav-item">
             <a href="javascript:;">其它功能</a>

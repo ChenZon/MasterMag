@@ -1,5 +1,7 @@
 package com.sz.pojo;
 
+import java.util.Date;
+
 public class Student {
 
     private Integer id;
@@ -12,6 +14,66 @@ public class Student {
 
     private Integer age;
 
+    private Integer phone;
+
+    private Integer idNum;
+
+    private String email;
+
+    private Date date;
+
+    private String sex;
+
+    private String introduce;
+
+
+    public Integer getPhone() {
+        return phone;
+    }
+
+    public void setPhone(Integer phone) {
+        this.phone = phone;
+    }
+
+    public Integer getIdNum() {
+        return idNum;
+    }
+
+    public void setIdNum(Integer idNum) {
+        this.idNum = idNum;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public Date getDate() {
+        return date;
+    }
+
+    public void setDate(Date date) {
+        this.date = date;
+    }
+
+    public String getSex() {
+        return sex;
+    }
+
+    public void setSex(String sex) {
+        this.sex = sex;
+    }
+
+    public String getIntroduce() {
+        return introduce;
+    }
+
+    public void setIntroduce(String introduce) {
+        this.introduce = introduce;
+    }
 
     public Integer getId() {
         return id;

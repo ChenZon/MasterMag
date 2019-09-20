@@ -7,30 +7,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8256b853-9598-47d4-97a7-b8f8ed3dd524" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/sz/controller/StudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sz/controller/StudentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sz/dao/StudentDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sz/dao/StudentDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sz/dao/StudentDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sz/dao/StudentDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sz/service/StudentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sz/service/StudentService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sz/service/impl/StudentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sz/service/impl/StudentServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sz/pojo/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sz/pojo/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/common/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/common/header.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/jsp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/jsp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/jsp/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/jsp/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/jsp/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/jsp/register.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sz/controller/StudentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sz/controller/StudentController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sz/dao/StudentDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sz/dao/StudentDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sz/dao/StudentDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sz/dao/StudentDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sz/service/StudentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sz/service/StudentService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sz/service/impl/StudentServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sz/service/impl/StudentServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/springmvc/WEB-INF/classes/com/sz/controller/StudentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/springmvc/WEB-INF/classes/com/sz/controller/StudentController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/springmvc/WEB-INF/classes/com/sz/dao/StudentDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/springmvc/WEB-INF/classes/com/sz/dao/StudentDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/springmvc/WEB-INF/classes/com/sz/dao/StudentDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/springmvc/WEB-INF/classes/com/sz/dao/StudentDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/springmvc/WEB-INF/classes/com/sz/service/StudentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/springmvc/WEB-INF/classes/com/sz/service/StudentService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/springmvc/WEB-INF/classes/com/sz/service/impl/StudentServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/springmvc/WEB-INF/classes/com/sz/service/impl/StudentServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/springmvc/common/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/springmvc/common/header.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/springmvc/jsp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/springmvc/jsp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/springmvc/jsp/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/springmvc/jsp/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/springmvc/jsp/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/springmvc/jsp/register.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/jsp/check.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/jsp/check.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -43,35 +23,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="check.jsp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/check.jsp">
+      <file leaf-file-name="teaMessage.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/teaMessage.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="101" column="96" lean-forward="true" selection-start-line="101" selection-start-column="32" selection-end-line="101" selection-end-column="96" />
+            <state relative-caret-position="100">
+              <caret line="25" column="42" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
               <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#form#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#div#1;n#form#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#2;n#form#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#3;n#form#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#3;n#form#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#4;n#form#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#5;n#form#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#6;n#form#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#8;n#form#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#style#0;n#div#0;n#div#8;n#form#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#div#8;n#form#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/testpage/login.jsp">
+      <file leaf-file-name="stuMessage.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/stuMessage.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-275">
-              <caret line="15" column="53" selection-start-line="15" selection-start-column="53" selection-end-line="15" selection-end-column="53" />
+            <state relative-caret-position="612">
+              <caret line="75" column="52" selection-start-line="75" selection-start-column="52" selection-end-line="75" selection-end-column="52" />
             </state>
           </provider>
         </entry>
@@ -79,24 +47,10 @@
       <file leaf-file-name="StudentController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/sz/controller/StudentController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="422">
-              <caret line="69" column="5" lean-forward="true" selection-start-line="69" selection-start-column="5" selection-end-line="69" selection-end-column="5" />
+            <state relative-caret-position="88">
+              <caret line="60" column="30" selection-start-line="60" selection-start-column="30" selection-end-line="60" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="header.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/common/header.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="32" column="40" lean-forward="true" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="40" />
-              <folding>
-                <element signature="n#ul#0;n#div#0;n#!!top" />
-                <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#div#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#li#1;n#ul#0;n#div#0;n#div#1;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -105,48 +59,11 @@
       <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="262">
-              <caret line="19" column="45" lean-forward="true" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
+            <state relative-caret-position="237">
+              <caret line="27" lean-forward="true" selection-end-line="43" selection-end-column="7" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/login.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="36" column="37" selection-start-line="36" selection-start-column="28" selection-end-line="36" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="logout.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/logout.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="register.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/register.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-125">
-              <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="86" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/test.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="3" column="17" lean-forward="true" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -184,7 +101,11 @@
       <find>查看</find>
       <find>form</find>
       <find>red</find>
+      <find>修改</find>
+      <find>日期</find>
+      <find>请选择</find>
       <find>background</find>
+      <find>查看个人</find>
     </findStrings>
     <dirStrings>
       <dir>D:\2019-大创\ProjectOfChane\MasterMag2\src\main\webapp\static</dir>
@@ -216,7 +137,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/sz/service/CustomerService.java" />
         <option value="$PROJECT_DIR$/src/main/resources/db.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/sz/dao/CustomerDao.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sz/pojo/Student.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/jsp/test.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/jsp/logout.jsp" />
         <option value="$PROJECT_DIR$/pom.xml" />
@@ -232,10 +152,14 @@
         <option value="$PROJECT_DIR$/src/main/java/com/sz/dao/StudentDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sz/service/impl/StudentServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sz/service/StudentService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sz/controller/StudentController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/jsp/index.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/common/header.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/message.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/jsp/check.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/jsp/message.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sz/pojo/Student.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/common/header.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sz/controller/StudentController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/jsp/teaMessage.jsp" />
       </list>
     </option>
   </component>
@@ -263,7 +187,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="195" />
     <option name="y" value="470" />
     <option name="width" value="1555" />
@@ -339,6 +263,15 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="sz" type="462c0819:PsiDirectoryNode" />
               <item name="interceptor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MasterMag2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MasterMag2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sz" type="462c0819:PsiDirectoryNode" />
+              <item name="pojo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MasterMag2" type="b2602c69:ProjectViewProjectNode" />
@@ -597,12 +530,12 @@
       <workItem from="1568904961771" duration="328000" />
       <workItem from="1568905344977" duration="84000" />
       <workItem from="1568905878920" duration="154000" />
-      <workItem from="1568906368997" duration="9604000" />
+      <workItem from="1568906368997" duration="16770000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55183000" />
+    <option name="totallyTimeSpent" value="62349000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -627,10 +560,10 @@
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.17571428" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.33857143" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -650,18 +583,10 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/springmvc.xml" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/login.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1200">
-          <caret line="48" column="54" lean-forward="true" selection-start-line="48" selection-start-column="54" selection-end-line="48" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/dev/index.jsp" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -816,37 +741,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sz/service/impl/StudentServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sz/pojo/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sz/controller/StudentController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="422">
-          <caret line="69" column="5" lean-forward="true" selection-start-line="69" selection-start-column="5" selection-end-line="69" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/login.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="36" column="37" selection-start-line="36" selection-start-column="28" selection-end-line="36" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/logout.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
@@ -875,23 +769,53 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/index.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/login.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="19" column="45" lean-forward="true" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
+        <state relative-caret-position="315">
+          <caret line="36" column="37" selection-start-line="36" selection-start-column="28" selection-end-line="36" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sz/pojo/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="725">
+          <caret line="29" column="31" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#429#430#0" expanded="true" />
+            <element signature="e#472#473#0" expanded="true" />
+            <element signature="e#506#507#0" expanded="true" />
+            <element signature="e#539#540#0" expanded="true" />
+            <element signature="e#567#568#0" expanded="true" />
+            <element signature="e#610#611#0" expanded="true" />
+            <element signature="e#644#645#0" expanded="true" />
+            <element signature="e#676#677#0" expanded="true" />
+            <element signature="e#704#705#0" expanded="true" />
+            <element signature="e#746#747#0" expanded="true" />
+            <element signature="e#780#781#0" expanded="true" />
+            <element signature="e#809#810#0" expanded="true" />
+            <element signature="e#836#837#0" expanded="true" />
+            <element signature="e#874#875#0" expanded="true" />
+            <element signature="e#906#907#0" expanded="true" />
+            <element signature="e#936#937#0" expanded="true" />
+            <element signature="e#962#963#0" expanded="true" />
+            <element signature="e#1000#1001#0" expanded="true" />
+            <element signature="e#1030#1031#0" expanded="true" />
+            <element signature="e#1066#1067#0" expanded="true" />
+            <element signature="e#1098#1099#0" expanded="true" />
+            <element signature="e#1148#1149#0" expanded="true" />
+            <element signature="e#1190#1191#0" expanded="true" />
+            <element signature="e#211#212#0" expanded="true" />
+            <element signature="e#236#237#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/common/header.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="32" column="40" lean-forward="true" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="40" />
+        <state relative-caret-position="100">
+          <caret line="16" column="65" selection-start-line="16" selection-start-column="55" selection-end-line="16" selection-end-column="65" />
           <folding>
-            <element signature="n#ul#0;n#div#0;n#!!top" />
+            <element signature="n#li#4;n#ul#0;n#div#0;n#!!top" />
             <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#div#1;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#li#1;n#ul#0;n#div#0;n#div#1;n#!!top" expanded="true" />
           </folding>
@@ -900,22 +824,51 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/check.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="101" column="96" lean-forward="true" selection-start-line="101" selection-start-column="32" selection-end-line="101" selection-end-column="96" />
+        <state relative-caret-position="47">
+          <caret line="25" column="59" selection-start-line="25" selection-start-column="59" selection-end-line="25" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sz/service/impl/StudentServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/stuMessage.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="75" column="52" selection-start-line="75" selection-start-column="52" selection-end-line="75" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sz/controller/StudentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="60" column="30" selection-start-line="60" selection-start-column="30" selection-end-line="60" selection-end-column="30" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#form#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#1;n#form#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#2;n#form#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#3;n#form#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#3;n#form#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#4;n#form#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#5;n#form#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#6;n#form#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#8;n#form#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#div#0;n#div#8;n#form#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#8;n#form#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="27" lean-forward="true" selection-end-line="43" selection-end-column="7" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/teaMessage.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="25" column="42" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
