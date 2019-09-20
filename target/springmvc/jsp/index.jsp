@@ -12,14 +12,16 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <title>研究生管理系统</title>
-    <link rel="stylesheet" type="text/css" href="https://www.layuicdn.com/layui-v2.5.5/css/layui.css">
+    <%--<link rel="stylesheet" type="text/css" href="https://www.layuicdn.com/layui-v2.5.5/css/layui.css">--%>
+    <link rel="stylesheet" type="text/css" href="/static/plugins/layui/css/layui.css">
+
 </head>
 <body class="layui-layout-body" >
 <div class="layui-layout layui-layout-admin">
 
     <%--<jsp:include page="/jsp/common/header.jsp"></jsp:include>--%>
     <jsp:include page="${ctx}/common/header.jsp"/>
-    <div class="layui-body">
+    <div class="layui-body" style="background-image: url(/static/img/background-2.jpg)">
         <!-- 内容主体区域 -->
         <div style="padding: 15px;">app信息管理</div>
     </div>
@@ -29,7 +31,8 @@
         © layui.com - 底部固定区域
     </div>
 </div>
-<script src="https://www.layuicdn.com/layui-v2.5.5/layui.js"></script>
+<%--<script src="https://www.layuicdn.com/layui-v2.5.5/layui.js"></script>--%>
+<script src="/static/plugins/layui/layui.js"></script>
 <script>
     //JavaScript代码区域
     layui.use('element', function(){

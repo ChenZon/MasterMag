@@ -9,11 +9,11 @@
 
 
 
-<div class="layui-header layui-bg-blue">
+<div class="layui-header layui-bg-cyan">
     <div class="layui-logo"><a href="/">研究生管理系统</a></div>
     <!-- 头部区域（可配合layui已有的水平导航） -->
     <ul class="layui-nav layui-layout-left">
-        <li class="layui-nav-item"><a href="">查看个人信息</a></li>
+        <li class="layui-nav-item"><a href="${ctx}/stu/check">查看个人信息</a></li>
         <li class="layui-nav-item"><a href="">修改个人信息</a></li>
         <li class="layui-nav-item"><a href="">查看导师信息</a></li>
         <li class="layui-nav-item"><a href="">申报确认导师</a></li>
@@ -47,7 +47,8 @@
         <!-- 左侧导航区域（可配合layui已有的垂直导航） -->
         <ul class="layui-nav layui-nav-tree"  lay-filter="test">
             <hr class="layui-bg-orange">
-            <li class="layui-nav-item layui-nav-itemed">
+            <%--<li class="layui-nav-item layui-nav-itemed">--%>
+            <li class="layui-nav-item">
                 <a class="" href="javascript:;" style="background-color: #92B8B1">账号管理</a>
                 <dl class="layui-nav-child">
                     <dd><a href="${ctx}/appAccount/index">账号首页</a></dd>

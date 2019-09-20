@@ -19,16 +19,14 @@ public class StudentController {
     private StudentService studentService;
 
     @RequestMapping("/login")
-    public String login(Integer id, String password, Model model, HttpSession session){
 
-        Student student = studentService.findUser(id, password);
+    public String login(Integer num, String password, Model model, HttpSession session, HttpServletRequest request ){
+
+        Student student = studentService.findUser(num, password);
         if (student != null){
-
             session.setAttribute("USER_SESSION", student);
-            System.out.println("before returning the index");
             return "index";
         }
-        System.out.println("cut-off rule");
         model.addAttribute("errMsg", "账号或密码错误");
         return "login";
     }
@@ -43,16 +41,32 @@ public class StudentController {
     public String logout(HttpSession session, Model model){
 
         session.invalidate();
-//        servletRequest.setAttribute("errMsg", "你已，成功退出");
-
-//        model.addAttribute("errMsg", "你已成功退出");
+        System.out.println("成功退出");
         return "redirect:/";
     }
 
     @RequestMapping("/register")
-    public String register(){
-        System.out.println("注册页面");
-        return "test";
+    public String register(Integer num, String password){
+        Student student = studentService.createUser(num, password);
+        System.out.println(student);
+        System.out.println("注册成功");
+        return "login";
+
+
+    }
+
+    @RequestMapping("/check")
+    public String check(HttpSession session){
+
+        Student student = (Student) session.getAttribute("USER_SESSION");       //获取当前用户id
+        Integer id = student.getId();
+        Integer num = student.getNum();
+        String username = student.getUsername();
+        Integer age = student.getAge();
+
+
+        System.out.println("查看信息");
+        return "check";
     }
 
 }

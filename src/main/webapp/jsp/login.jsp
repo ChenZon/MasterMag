@@ -48,7 +48,7 @@
         <div class="layui-form-item">
             <label class="layui-form-label">账&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;号：</label>
             <div class="layui-input-block">
-                <input type="text" name="id" lay-verify="title" autocomplete="off" placeholder="请输入账号" class="layui-input">
+                <input type="text" name="num" lay-verify="title" autocomplete="off" placeholder="请输入账号" class="layui-input">
             </div>
         </div>
         <br/>

@@ -6,5 +6,11 @@ public interface StudentService {
 
     Student findUser(Integer num, String password);
 
+    Student createUser(Integer num, String password);
+
+    Student check(Integer id);
+
+
+
 
 }

@@ -33,7 +33,7 @@
         <div class="layui-input-inline">
             <!-- 用户名 -->
             <div class="layui-inline" style="width: 85%">
-                <input type="text" id="user" name="account" required  lay-verify="required" placeholder="请输入用户名" autocomplete="off" class="layui-input">
+                <input type="text" id="user" name="num" required  lay-verify="required" placeholder="请输入账号" autocomplete="off" class="layui-input">
             </div>
             <!-- 对号 -->
             <div class="layui-inline layui-icon ">

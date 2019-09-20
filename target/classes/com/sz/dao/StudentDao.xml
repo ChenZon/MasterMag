@@ -11,4 +11,17 @@
         where num = #{num}
         and password = #{password}
     </select>
+
+    <select id="createUser" resultType="com.sz.pojo.Student">
+      insert into student (num, password)
+                VALUES (#{num}, #{password});
+    </select>
+    <select id="check" resultType="com.sz.pojo.Student">
+        select *
+        from student
+        where
+        id = #{id}
+    </select>
+
+
 </mapper>

@@ -18,5 +18,18 @@ public class StudentServiceImpl implements StudentService {
         return student;
     }
 
+    @Override
+    public Student createUser(Integer num, String password) {
+        Student student = studentDao.createUser(num, password);
+        System.out.println("student is: "+ student);
+        return student;
+    }
+
+    @Override
+    public Student check(Integer id) {
+        studentDao.check(id);
+        return null;
+    }
+
 
 }

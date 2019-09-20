@@ -5,7 +5,10 @@ import org.apache.ibatis.annotations.Param;
 
 public interface StudentDao {
 
-//    public Student findCustomerById(Integer id);
 
-    Student findUser(@Param("num")Integer id, @Param("password")String password);
+    Student findUser(@Param("num")Integer num, @Param("password")String password);
+
+    Student createUser(@Param("num")Integer num, @Param("password")String password);
+
+    Student check(@Param("id")Integer id);
 }
