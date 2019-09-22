@@ -1,6 +1,5 @@
 package com.sz.pojo;
 
-import java.util.Date;
 
 public class Student {
 
@@ -14,66 +13,18 @@ public class Student {
 
     private Integer age;
 
-    private Integer phone;
+    private String phone;
 
-    private Integer idNum;
+    private String idNum;
 
     private String email;
 
-    private Date date;
+    private String date;
 
     private String sex;
 
     private String introduce;
 
-
-    public Integer getPhone() {
-        return phone;
-    }
-
-    public void setPhone(Integer phone) {
-        this.phone = phone;
-    }
-
-    public Integer getIdNum() {
-        return idNum;
-    }
-
-    public void setIdNum(Integer idNum) {
-        this.idNum = idNum;
-    }
-
-    public String getEmail() {
-        return email;
-    }
-
-    public void setEmail(String email) {
-        this.email = email;
-    }
-
-    public Date getDate() {
-        return date;
-    }
-
-    public void setDate(Date date) {
-        this.date = date;
-    }
-
-    public String getSex() {
-        return sex;
-    }
-
-    public void setSex(String sex) {
-        this.sex = sex;
-    }
-
-    public String getIntroduce() {
-        return introduce;
-    }
-
-    public void setIntroduce(String introduce) {
-        this.introduce = introduce;
-    }
 
     public Integer getId() {
         return id;
@@ -113,5 +64,53 @@ public class Student {
 
     public void setAge(Integer age) {
         this.age = age;
+    }
+
+    public String getPhone() {
+        return phone;
+    }
+
+    public void setPhone(String phone) {
+        this.phone = phone;
+    }
+
+    public String getIdNum() {
+        return idNum;
+    }
+
+    public void setIdNum(String idNum) {
+        this.idNum = idNum;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public String getDate() {
+        return date;
+    }
+
+    public void setDate(String date) {
+        this.date = date;
+    }
+
+    public String getSex() {
+        return sex;
+    }
+
+    public void setSex(String sex) {
+        this.sex = sex;
+    }
+
+    public String getIntroduce() {
+        return introduce;
+    }
+
+    public void setIntroduce(String introduce) {
+        this.introduce = introduce;
     }
 }

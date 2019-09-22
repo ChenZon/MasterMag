@@ -3,11 +3,45 @@
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.sz.dao.StudentDao">
+    <update id="update">
+        update student
+        <set>
+            <if test="username != null and username != ''">
+                username = #{username},
+            </if>
+            <if test="age != null and age != ''">
+                age = #{age},
+            </if>
+            <if test="phone != null and phone != ''">
+                phone = #{phone},
+            </if>
+            <if test="email != null and email != ''">
+                email = #{email},
+            </if>
+            <if test="date != null and date != ''">
+                date = #{date},
+            </if>
+            <if test="idNum != null and idNum != ''">
+                idNum = #{idNum},
+            </if>
+            <if test="sex != null and sex != ''">
+                sex = #{sex},
+            </if>
+            <if test="introduce">
+                sex = #{sex},
+            </if>
+        </set>
+        where id = #{id}
+
+    </update>
+
+
 
 
     <select id="findUser" resultType="com.sz.pojo.Student">
         select *
         from student
+
         where num = #{num}
         and password = #{password}
     </select>

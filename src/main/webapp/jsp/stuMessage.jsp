@@ -12,7 +12,6 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <title>研究生管理系统</title>
-    <%--<link rel="stylesheet" type="text/css" href="https://www.layuicdn.com/layui-v2.5.5/css/layui.css">--%>
     <link rel="stylesheet" type="text/css" href="/static/plugins/layui/css/layui.css">
 
 
@@ -89,6 +88,13 @@
 </div>
 
 
-        <script src="/static/plugins/layui/layui.js"></script>
+<script src="/static/plugins/layui/layui.js"></script>
+<script>
+    //JavaScript代码区域
+    layui.use('element', function(){
+        var element = layui.element;
+
+    });
+</script>
 </body>
 </html>

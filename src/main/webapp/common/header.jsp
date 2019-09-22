@@ -16,7 +16,7 @@
         <li class="layui-nav-item"><a href="${ctx}/stu/check">修改个人信息</a></li>
         <li class="layui-nav-item"><a href="${ctx}/stu/stuMessage">查看个人信息</a></li>
         <li class="layui-nav-item"><a href="${ctx}/stu/teaMessage">查看导师信息</a></li>
-        <li class="layui-nav-item"><a href="">申报确认导师</a></li>
+        <li class="layui-nav-item"><a href="">申报导师</a></li>
         <li class="layui-nav-item">
             <a href="javascript:;">其它功能</a>
             <dl class="layui-nav-child">

@@ -3,6 +3,7 @@ package com.sz.dao;
 import com.sz.pojo.Student;
 import org.apache.ibatis.annotations.Param;
 
+
 public interface StudentDao {
 
 
@@ -10,5 +11,6 @@ public interface StudentDao {
 
     Student createUser(@Param("num")Integer num, @Param("password")String password);
 
-    Student check(@Param("id")Integer id);
+    void update(@Param("username")String username, @Param("age")Integer age, @Param("phone")String phone, @Param("email")String email, @Param("date")String date, @Param("idNum")String idNum, @Param("sex")String sex, @Param("introduce")String introduce, @Param("id")Integer id);
+
 }

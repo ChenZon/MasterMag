@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
+import java.util.Date;
 
 @Controller
 @RequestMapping("/stu")
@@ -50,8 +51,6 @@ public class StudentController {
         System.out.println(student);
         System.out.println("注册成功");
         return "login";
-
-
     }
 
     @RequestMapping("/check")
@@ -72,6 +71,15 @@ public class StudentController {
     public String teaMessage(){
         System.out.println("查看导师信息");
         return "teaMessage";
+    }
+
+    @RequestMapping("/update")
+    public String update(HttpSession session, String username, Integer age, String phone, String email,String date, String idNum, String sex, String introduce){
+        Student student = (Student) session.getAttribute("USER_SESSION");       //获取当前用户id
+        Integer id = student.getId();
+        studentService.update(username, age, phone, email, date, idNum,  sex, introduce, id);
+        System.out.println("更新信息");
+        return "index";
     }
 
 

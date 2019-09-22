@@ -6,6 +6,8 @@ import com.sz.service.StudentService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.Date;
+
 @Service
 public class StudentServiceImpl implements StudentService {
 
@@ -26,9 +28,11 @@ public class StudentServiceImpl implements StudentService {
     }
 
     @Override
-    public Student check(Integer id) {
-        studentDao.check(id);
-        return null;
+    public void update(String username, Integer age, String phone, String email, String date, String idNum, String sex, String introduce, Integer id) {
+
+        studentDao.update(username, age, phone, email, date, idNum, sex, introduce, id);
+//       studentDao.update(username,  age,  phone,  email, date, idNum,  sex, introduce, id);
+//        return row;
     }
 
 

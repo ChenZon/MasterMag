@@ -26,13 +26,13 @@
         <%--<div class="body" style="padding: 100px; background-image: url(/static/img/background.jpg)">--%>
         <div class="body" style="background-image: url(/static/img/background.jpg); background-attachment: fixed">
             <div style="padding: auto">完善个人信息</div>
-                <form class="layui-form" action="/jsp/test.jsp" style="padding-left: 25%; padding-top: 2%; padding-bottom: 2%">
+                <form class="layui-form" action="${ctx}/stu/update" style="padding-left: 25%; padding-top: 2%; padding-bottom: 2%" method="post">
 
 
                     <div class="layui-form-item">
                         <label class="layui-form-label">账号</label>
                         <div class="layui-input-inline">
-                            <input type="text" name="num" autocomplete="off" class="layui-input layui-disabled" placeholder="${USER_SESSION.num} ">
+                            <input type="number" name="num" autocomplete="off" class="layui-input layui-disabled" placeholder="${USER_SESSION.num} ">
                         </div>
                     </div>
 
@@ -61,7 +61,7 @@
                         <div class="layui-inline">
                             <label class="layui-form-label">手机号码</label>
                             <div class="layui-input-inline">
-                                <input type="tel" name="phone" lay-verify="required|phone" autocomplete="off" class="layui-input">
+                                <input type="text" name="phone" lay-verify="required|phone" autocomplete="off" class="layui-input">
                             </div>
                         </div>
                     </div>
@@ -82,8 +82,6 @@
                                 <input type="text" name="date" id="date1" autocomplete="off" class="layui-input">
                             </div>
                         </div>
-
-
                     </div>
 
                     <div class="layui-form-item">
@@ -170,6 +168,13 @@
             elem: '#date1'
         });
 });
+</script>
+<script>
+    //JavaScript代码区域
+    layui.use('element', function(){
+        var element = layui.element;
+
+    });
 </script>
 </body>
 </html>

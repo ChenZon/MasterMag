@@ -19,6 +19,7 @@
             padding: 50px;
             width: 250px;
             border-radius: 15px;
+            box-shadow:0 0 3px #000 inset;
 
 
         }

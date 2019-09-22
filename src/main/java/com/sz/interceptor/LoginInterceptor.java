@@ -14,15 +14,21 @@ public class LoginInterceptor implements HandlerInterceptor {
 
         String url = request.getRequestURI();
 
-        //以下页面不拦截
-        if (url.indexOf("/login") >= 0 || url.indexOf("/register") >= 0) {
-            return true;
+        HttpSession session = request.getSession();
+        Student user = (Student) session.getAttribute("USER_SESSION");
+
+        if (user != null && url.indexOf("/login") >= 0){
+            System.out.println("你已经登录！");
+
         }
 
 
+        //以下页面不拦截
+        if ((url.indexOf("/login") >= 0 || url.indexOf("/register") >= 0) && user == null){
 
-        HttpSession session = request.getSession();
-        Student user = (Student) session.getAttribute("USER_SESSION");
+            return true;
+        }
+
 
         if (user != null) {
             return true;
