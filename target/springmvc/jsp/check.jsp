@@ -32,7 +32,7 @@
                     <div class="layui-form-item">
                         <label class="layui-form-label">账号</label>
                         <div class="layui-input-inline">
-                            <input type="number" name="num" autocomplete="off" class="layui-input layui-disabled" placeholder="${USER_SESSION.num} ">
+                            <input type="text" name="num" autocomplete="off" class="layui-input layui-disabled" placeholder="${USER_SESSION.num} ">
                         </div>
                     </div>
 
@@ -47,7 +47,7 @@
                         <label class="layui-form-label">年龄</label>
                         <div class="layui-input-inline">
                             <select name="age" lay-filter="aihao">
-                                <option value=""></option>
+
                                 <option value="0">20</option>
                                 <option value="1">21</option>
                                 <option value="2">22</option>
@@ -167,6 +167,11 @@
         laydate.render({
             elem: '#date1'
         });
+        form.on('select(sex)', function (data) {        //对应lay-filter
+            sex= data.value;                                   //获取value值
+            text= data.elem[data.elem.selectedIndex].text;;    //获取显示的值
+
+        });
 });
 </script>
 <script>
@@ -175,6 +180,8 @@
         var element = layui.element;
 
     });
+
+
 </script>
 </body>
 </html>

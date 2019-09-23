@@ -1,18 +1,16 @@
 <%--
   Created by IntelliJ IDEA.
   User: ASUS
-  Date: 2019/9/19
-  Time: 13:20
+  Date: 2019/9/22
+  Time: 15:53
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
     <title>Title</title>
-    <link rel="stylesheet" type="text/css" href="/static/plugins/layui/css/layui.css">
 </head>
 <body>
-    测试页面
-<script src="/static/plugins/layui/layui.js"></script>
+    老师信息
 </body>
 </html>

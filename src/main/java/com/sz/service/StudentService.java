@@ -1,6 +1,8 @@
 package com.sz.service;
 
 import com.sz.pojo.Student;
+import com.sz.pojo.Teacher;
+import org.apache.ibatis.annotations.Param;
 
 
 public interface StudentService {
@@ -11,4 +13,6 @@ public interface StudentService {
 
 
     void update(String username, Integer age, String phone, String email, String date, String idNum, String sex, String introduce, Integer id);
+
+    Teacher findTeacher(@Param("id")Integer id);
 }

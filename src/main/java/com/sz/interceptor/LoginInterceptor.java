@@ -17,15 +17,16 @@ public class LoginInterceptor implements HandlerInterceptor {
         HttpSession session = request.getSession();
         Student user = (Student) session.getAttribute("USER_SESSION");
 
-        if (user != null && url.indexOf("/login") >= 0){
+        if (user != null && (url.indexOf("/login") >= 0 ||  url.indexOf("/register") >= 0)){
             System.out.println("你已经登录！");
+            request.getRequestDispatcher("/jsp/index.jsp").forward(request, response);
 
         }
 
 
         //以下页面不拦截
         if ((url.indexOf("/login") >= 0 || url.indexOf("/register") >= 0) && user == null){
-
+            System.out.println(url);
             return true;
         }
 
@@ -35,7 +36,10 @@ public class LoginInterceptor implements HandlerInterceptor {
         }
 
         request.setAttribute("msg", "你还没有登录，不要搞事！");
+        System.out.println("不要搞事");
         request.getRequestDispatcher("/").forward(request, response);
+//        response.sendRedirect(request.getContextPath()+"/");
+        System.out.println("不要搞事。。。。。。。。");
         return false;
     }
     @Override

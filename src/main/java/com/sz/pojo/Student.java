@@ -3,6 +3,8 @@ package com.sz.pojo;
 
 public class Student {
 
+//    private Teacher teacher;
+
     private Integer id;
 
     private Integer num;
@@ -112,5 +114,22 @@ public class Student {
 
     public void setIntroduce(String introduce) {
         this.introduce = introduce;
+    }
+
+    @Override
+    public String toString() {
+        return "Student{" +
+                ", id=" + id +
+                ", num=" + num +
+                ", username='" + username + '\'' +
+                ", password='" + password + '\'' +
+                ", age=" + age +
+                ", phone='" + phone + '\'' +
+                ", idNum='" + idNum + '\'' +
+                ", email='" + email + '\'' +
+                ", date='" + date + '\'' +
+                ", sex='" + sex + '\'' +
+                ", introduce='" + introduce + '\'' +
+                '}';
     }
 }

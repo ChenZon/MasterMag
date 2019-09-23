@@ -1,6 +1,7 @@
 package com.sz.controller;
 
 import com.sz.pojo.Student;
+import com.sz.pojo.Teacher;
 import com.sz.service.StudentService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -19,7 +20,6 @@ public class StudentController {
     private StudentService studentService;
 
     @RequestMapping("/login")
-
     public String login(Integer num, String password, Model model, HttpSession session, HttpServletRequest request ){
 
         Student student = studentService.findUser(num, password);
@@ -54,10 +54,8 @@ public class StudentController {
     }
 
     @RequestMapping("/check")
-    public String check(HttpSession session){
+    public String check(){
 
-        Student student = (Student) session.getAttribute("USER_SESSION");       //获取当前用户id
-        System.out.println("完善信息");
         return "check";
     }
 
@@ -68,7 +66,11 @@ public class StudentController {
     }
 
     @RequestMapping("/teaMessage")
-    public String teaMessage(){
+    public String teaMessage(HttpSession session){
+        Student student = (Student) session.getAttribute("USER_SESSION");       //获取当前用户id
+        Integer id = student.getId();
+        Teacher teacher = studentService.findTeacher(id);
+        System.out.println(teacher);
         System.out.println("查看导师信息");
         return "teaMessage";
     }
@@ -77,6 +79,7 @@ public class StudentController {
     public String update(HttpSession session, String username, Integer age, String phone, String email,String date, String idNum, String sex, String introduce){
         Student student = (Student) session.getAttribute("USER_SESSION");       //获取当前用户id
         Integer id = student.getId();
+        System.out.println("introduce: " + introduce);
         studentService.update(username, age, phone, email, date, idNum,  sex, introduce, id);
         System.out.println("更新信息");
         return "index";

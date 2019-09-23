@@ -77,8 +77,6 @@
                     </tbody>
                 </table>
             </div>
-
-
         </div>
 
     <div class="layui-footer">
