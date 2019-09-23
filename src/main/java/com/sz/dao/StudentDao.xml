@@ -63,18 +63,16 @@
         WHERE s.t_id = t.id
         and s.id = #{id}
     </select>
-    <resultMap id="teacherDetail" type="com.sz.pojo.Teacher">
+    <resultMap id="teacherDetail" type="com.sz.pojo.Teacher">                   <!-- 次  -->
         <id property="id" column="id"/>
         <result property="name" column="name"/>
         <result property="age" column="age"/>
         <result property="address" column="address"/>
         <result property="tranningPlan" column="tranningPlan"/>
 
-
-        <association property="student" javaType="com.sz.pojo.Student">
+        <association property="student" javaType="com.sz.pojo.Student">         <!-- 主  -->
             <id property="id" column="id"/>
             <result property="num" column="num"/>
-
         </association>
 
     </resultMap>

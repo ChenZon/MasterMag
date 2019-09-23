@@ -21,15 +21,16 @@
 
     <%--<jsp:include page="/jsp/common/header.jsp"></jsp:include>--%>
     <jsp:include page="${ctx}/common/header.jsp"/>
-    <div class="layui-body" style="background-image: url(/static/img/background-2.jpg)">
+    <div class="layui-body" style="background-image: url(/static/img/background-3.jpg)">
         <!-- 内容主体区域 -->
-        <div style="padding: 15px;">app信息管理</div>
+        <div style="padding: 15px;">首页</div>
     </div>
 
-    <div class="layui-footer">
-        <!-- 底部固定区域 -->
-        © layui.com - 底部固定区域
-    </div>
+        <jsp:include page="${ctx}/common/footer.jsp"/>
+    <%--<div class="layui-footer">--%>
+        <%--<!-- 底部固定区域 -->--%>
+        <%--© layui.com - 底部固定区域--%>
+    <%--</div>--%>
 </div>
 <%--<script src="https://www.layuicdn.com/layui-v2.5.5/layui.js"></script>--%>
 <script src="/static/plugins/layui/layui.js"></script>

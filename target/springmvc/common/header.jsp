@@ -10,7 +10,8 @@
 
 
 <div class="layui-header layui-bg-cyan">
-    <div class="layui-logo"><a href="/">研究生管理系统</a></div>
+    <%--<div class="layui-logo"><a href="/jsp/index.jsp">研究生管理系统</a></div>--%>
+    <div class="layui-logo"><a href="${ctx}/jsp/index.jsp">研究生管理系统</a></div>
     <!-- 头部区域（可配合layui已有的水平导航） -->
     <ul class="layui-nav layui-layout-left">
         <li class="layui-nav-item"><a href="${ctx}/stu/check">修改个人信息</a></li>

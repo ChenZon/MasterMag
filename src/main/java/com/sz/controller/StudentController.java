@@ -66,10 +66,14 @@ public class StudentController {
     }
 
     @RequestMapping("/teaMessage")
-    public String teaMessage(HttpSession session){
+    public String teaMessage(HttpSession session, Model model){
         Student student = (Student) session.getAttribute("USER_SESSION");       //获取当前用户id
         Integer id = student.getId();
         Teacher teacher = studentService.findTeacher(id);
+
+        model.addAttribute("teaDetail", teacher);
+
+
         System.out.println(teacher);
         System.out.println("查看导师信息");
         return "teaMessage";

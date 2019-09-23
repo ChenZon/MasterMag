@@ -12,33 +12,76 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <title>研究生管理系统</title>
-    <%--<link rel="stylesheet" type="text/css" href="https://www.layuicdn.com/layui-v2.5.5/css/layui.css">--%>
     <link rel="stylesheet" type="text/css" href="/static/plugins/layui/css/layui.css">
+
 
 </head>
 <body class="layui-layout-body" >
 <div class="layui-layout layui-layout-admin">
 
-    <%--<jsp:include page="/jsp/common/header.jsp"></jsp:include>--%>
+
     <jsp:include page="${ctx}/common/header.jsp"/>
-    <div class="layui-body" style="background-image: url(/static/img/background-2.jpg)">
-        <!-- 内容主体区域 -->
-        <div style="padding: 15px;">查看导师信息</div>
+
+    <div class="layui-body">
+
+        <div class="body" style="background-image: url(/static/img/background-2.jpg)">
+            <div class="table" style="background-color: red">
+                <table class="layui-table">
+                    <colgroup>
+                        <col width="150">
+                        <col width="200">
+                    </colgroup>
+                    <thead>
+                    <tr>
+                        <th>类型</th>
+                        <th>内容</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>ID</td>
+                        <td>${teaDetail.id}</td>
+                    </tr>
+
+                    <tr>
+                        <td>姓名</td>
+                        <td>${teaDetail.name}</td>
+                    </tr>
+
+                    <tr>
+                        <td>地址</td>
+                        <td>${teaDetail.address}</td>
+                    </tr>
+
+                    <tr>
+                        <td>年龄</td>
+                        <td>${teaDetail.age}</td>
+                    </tr>
+
+                    </tr>
+                        <td>培养方案</td>
+                        <td>${teaDetail.tranningPlan}</td>
+                    </tr>
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="layui-footer">
+            <!-- 底部固定区域 -->
+            © layui.com - 底部固定区域
+        </div>
     </div>
 
-    <div class="layui-footer">
-        <!-- 底部固定区域 -->
-        © layui.com - 底部固定区域
-    </div>
-</div>
-<%--<script src="https://www.layuicdn.com/layui-v2.5.5/layui.js"></script>--%>
-<script src="/static/plugins/layui/layui.js"></script>
-<script>
-    //JavaScript代码区域
-    layui.use('element', function(){
-        var element = layui.element;
 
-    });
-</script>
+    <script src="/static/plugins/layui/layui.js"></script>
+    <script>
+        //JavaScript代码区域
+        layui.use('element', function(){
+            var element = layui.element;
+
+        });
+    </script>
 </body>
 </html>
