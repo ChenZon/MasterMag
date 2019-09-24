@@ -29,7 +29,7 @@ public class StudentServiceImpl implements StudentService {
     }
 
     @Override
-    public void update(String username, Integer age, String phone, String email, String date, String idNum, String sex, String introduce, Integer id) {
+    public void update(String username, String age, String phone, String email, String date, String idNum, String sex, String introduce, Integer id) {
 
         studentDao.update(username, age, phone, email, date, idNum, sex, introduce, id);
     }

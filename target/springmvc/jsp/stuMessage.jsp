@@ -52,7 +52,7 @@
                         <td>${USER_SESSION.username}</td>
                     </tr>
                     <tr>
-                        <td>年龄</td>
+                        <td>出生日期</td>
                         <td>${USER_SESSION.age}</td>
                     </tr>
                         <td>手机号码</td>
@@ -79,10 +79,7 @@
             </div>
         </div>
 
-    <div class="layui-footer">
-        <!-- 底部固定区域 -->
-        © layui.com - 底部固定区域
-    </div>
+        <jsp:include page="${ctx}/common/footer.jsp"/>
 </div>
 
 

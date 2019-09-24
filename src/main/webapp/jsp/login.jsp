@@ -75,7 +75,6 @@
 
 </div>
 
-<%--<script src="https://www.layuicdn.com/layui/layui.js"></script>--%>
 <script src="/static/plugins/layui/layui.js"></script>
 
 </body>

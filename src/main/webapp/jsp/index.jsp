@@ -27,10 +27,7 @@
     </div>
 
         <jsp:include page="${ctx}/common/footer.jsp"/>
-    <%--<div class="layui-footer">--%>
-        <%--<!-- 底部固定区域 -->--%>
-        <%--© layui.com - 底部固定区域--%>
-    <%--</div>--%>
+
 </div>
 <%--<script src="https://www.layuicdn.com/layui-v2.5.5/layui.js"></script>--%>
 <script src="/static/plugins/layui/layui.js"></script>
@@ -40,6 +37,12 @@
         var element = layui.element;
 
     });
+  
+
+    <%--layui.use('layer', function(){--%>
+        <%--var layer = layui.layer;--%>
+        <%--layer.msg("${requestScope.success}");         //重要--%>
+    <%--});--%>
 </script>
 </body>
 </html>

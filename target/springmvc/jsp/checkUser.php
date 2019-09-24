@@ -2,6 +2,7 @@
 
 //接收表单数据
 $user = $_POST['num'];
+echo "hhhhhhhhhhhhhhhhhhhhhh..................";
 
 //数据库连接语句, 参数包含:服务器地址,用户名,登录密码,数据库名称,默认端口)
 $db = new mysqli('localhost','root','','stusystem','3306');

@@ -13,7 +13,7 @@ public class Student {
 
     private String password;
 
-    private Integer age;
+    private String age;
 
     private String phone;
 
@@ -60,11 +60,11 @@ public class Student {
         this.password = password;
     }
 
-    public Integer getAge() {
+    public String getAge() {
         return age;
     }
 
-    public void setAge(Integer age) {
+    public void setAge(String age) {
         this.age = age;
     }
 
