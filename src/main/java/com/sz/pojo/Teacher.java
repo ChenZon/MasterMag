@@ -14,6 +14,14 @@ public class Teacher {
 
     private String tranningPlan;
 
+    private String email;
+
+    private String phone;
+
+    private String num;
+
+    private String position;
+
     public Student getStudent() {
         return student;
     }
@@ -60,6 +68,39 @@ public class Teacher {
 
     public void setTranningPlan(String tranningPlan) {
         this.tranningPlan = tranningPlan;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public String getPhone() {
+        return phone;
+    }
+
+    public void setPhone(String phone) {
+        this.phone = phone;
+    }
+
+    public String getNum() {
+        return num;
+    }
+
+    public void setNum(String num) {
+        this.num = num;
+    }
+
+
+    public String getPosition() {
+        return position;
+    }
+
+    public void setPosition(String position) {
+        this.position = position;
     }
 
     @Override

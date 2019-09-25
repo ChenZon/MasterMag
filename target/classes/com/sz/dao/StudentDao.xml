@@ -66,7 +66,10 @@
     <resultMap id="teacherDetail" type="com.sz.pojo.Teacher">                   <!-- 次  -->
         <id property="id" column="id"/>
         <result property="name" column="name"/>
+        <result property="position" column="position"/>
         <result property="age" column="age"/>
+        <result property="phone" column="phone"/>
+        <result property="email" column="email"/>
         <result property="address" column="address"/>
         <result property="tranningPlan" column="tranningPlan"/>
 

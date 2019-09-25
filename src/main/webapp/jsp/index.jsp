@@ -19,11 +19,22 @@
 <body class="layui-layout-body" >
 <div class="layui-layout layui-layout-admin">
 
-
     <jsp:include page="${ctx}/common/header.jsp"/>
-    <div class="layui-body" style="background-image: url(/static/img/background-3.jpg)">
+    <%--<div class="layui-body" style="background-image: url(/static/img/background-3.jpg)">--%>
+    <div class="layui-body" style="background-color: rgba(58,59,7,0.36)">
         <!-- 内容主体区域 -->
-        <div style="padding: 15px;">首页</div>
+        <div class="carousel" style="margin-left: 13%; margin-top: 8%">
+            <div class="layui-carousel" id="test1">
+                <div carousel-item>
+                    <div><img src="/static/img/background-4.jpg" style="width: 100%"></div>
+                    <div><img src="/static/img/background-5.jpg" style="width: 100%"></div>
+                    <div><img src="/static/img/background-6.jpg" style="width: 100%"></div>
+                    <div><img src="/static/img/background-7.jpg" style="width: 100%"></div>
+                    <div><img src="/static/img/background-8.jpg" style="width: 100%"></div>
+
+                </div>
+            </div>
+        </div>
     </div>
 
     <jsp:include page="${ctx}/common/footer.jsp"/>
@@ -43,6 +54,20 @@
         <%--var layer = layui.layer;--%>
         <%--layer.msg("${requestScope.success}");         //重要--%>
     <%--});--%>
+</script>
+
+<script>
+    layui.use('carousel', function(){
+        var carousel = layui.carousel;
+        //建造实例
+        carousel.render({
+            elem: '#test1'
+            ,width: '1000px' //设置容器宽度
+            ,height: '450px'
+            ,arrow: 'always' //始终显示箭头
+            //,anim: 'updown' //切换动画方式
+        });
+    });
 </script>
 </body>
 </html>

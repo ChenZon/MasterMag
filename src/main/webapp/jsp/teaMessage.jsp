@@ -47,6 +47,10 @@
                         <td>姓名</td>
                         <td>${teaDetail.name}</td>
                     </tr>
+                    <tr>
+                        <td>职位</td>
+                        <td>${teaDetail.position}</td>
+                    </tr>
 
                     <tr>
                         <td>地址</td>
@@ -56,6 +60,14 @@
                     <tr>
                         <td>年龄</td>
                         <td>${teaDetail.age}</td>
+                    </tr>
+                    <tr>
+                        <td>手机号码</td>
+                        <td>${teaDetail.phone}</td>
+                    </tr>
+                    <tr>
+                        <td>邮箱</td>
+                        <td>${teaDetail.email}</td>
                     </tr>
 
                     </tr>

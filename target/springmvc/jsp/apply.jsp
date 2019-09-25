@@ -57,6 +57,7 @@
         <button class="layui-btn layui-btn-sm" lay-event="getCheckData">获取选中行数据</button>
         <button class="layui-btn layui-btn-sm" lay-event="getCheckLength">获取选中数目</button>
         <button class="layui-btn layui-btn-sm" lay-event="isAll">验证是否全选</button>
+        <button class="layui-btn layui-btn-sm" lay-event="selectedTea">已选择导师</button>
     </div>
 </script>
 
@@ -92,9 +93,6 @@
             return '<em>'+ res.username +'</em>'
         }}
                 ,{field:'email', title:'邮箱', width:150}
-                // ,{field:'email', title:'邮箱', width:150, templet: function(res){
-                //         return '<em>'+ res.email +'</em>'
-                //     }}
                 ,{field:'sex', title:'性别', width:80, sort: true}
                 ,{field:'city', title:'城市', width:100}
                 ,{field:'sign', title:'签名'}
@@ -125,11 +123,14 @@
                 case 'isAll':
                     layer.msg(checkStatus.isAll ? '全选': '未全选');
                     break;
+                case 'selectedTea':
+                    layer.alert("该功能尚未完善！");
+                    break;
 
                 //自定义头工具栏右侧图标 - 提示
-                case 'LAYTABLE_TIPS':
-                    layer.alert('这是工具栏右侧自定义的一个图标按钮');
-                    break;
+                // case 'LAYTABLE_TIPS':
+                //     layer.alert('这是工具栏右侧自定义的一个图标按钮');
+                //     break;
             };
         });
 

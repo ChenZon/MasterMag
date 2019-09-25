@@ -17,7 +17,7 @@ public class LoginInterceptor implements HandlerInterceptor {
         HttpSession session = request.getSession();
         Student user = (Student) session.getAttribute("USER_SESSION");
 
-        if (user != null && (url.indexOf("/login") >= 0 ||  url.indexOf("/register") >= 0)){
+        if (user != null && (url.indexOf("/login") >= 0 ||  url.indexOf("/register") >= 0 ||  url.indexOf("jsp/login.jsp") >= 0)){
             System.out.println("你已经登录！");
             request.getRequestDispatcher("/jsp/index.jsp").forward(request, response);
 
