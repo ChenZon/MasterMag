@@ -12,24 +12,24 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <title>研究生管理系统</title>
-    <%--<link rel="stylesheet" type="text/css" href="https://www.layuicdn.com/layui-v2.5.5/css/layui.css">--%>
     <link rel="stylesheet" type="text/css" href="/static/plugins/layui/css/layui.css">
+    <%--<script src="/static/plugins/layui/layui.js"></script>--%>
 
 </head>
 <body class="layui-layout-body" >
 <div class="layui-layout layui-layout-admin">
 
-    <%--<jsp:include page="/jsp/common/header.jsp"></jsp:include>--%>
+
     <jsp:include page="${ctx}/common/header.jsp"/>
     <div class="layui-body" style="background-image: url(/static/img/background-3.jpg)">
         <!-- 内容主体区域 -->
         <div style="padding: 15px;">首页</div>
     </div>
 
-        <jsp:include page="${ctx}/common/footer.jsp"/>
+    <jsp:include page="${ctx}/common/footer.jsp"/>
 
 </div>
-<%--<script src="https://www.layuicdn.com/layui-v2.5.5/layui.js"></script>--%>
+
 <script src="/static/plugins/layui/layui.js"></script>
 <script>
     //JavaScript代码区域
@@ -37,7 +37,7 @@
         var element = layui.element;
 
     });
-  
+
 
     <%--layui.use('layer', function(){--%>
         <%--var layer = layui.layer;--%>
