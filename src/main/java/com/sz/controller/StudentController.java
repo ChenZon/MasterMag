@@ -9,7 +9,6 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
-import org.springframework.web.servlet.ModelAndView;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
 
@@ -26,10 +25,10 @@ public class StudentController {
         Student student = studentService.findUser(num, password);
         if (student != null){
             session.setAttribute("USER_SESSION", student);
-            request.setAttribute("success", "欢迎您！");
+            request.setAttribute("success", "欢迎您！ "+ student.getUsername());
             return "index";
         }
-        model.addAttribute("errMsg", "账号或密码错误");
+        request.setAttribute("error", "账号或密码错误");
         return "login";
     }
 
@@ -42,7 +41,7 @@ public class StudentController {
     @RequestMapping("/logout")
     public String logout(HttpSession session, HttpServletRequest request){
 
-        request.setAttribute("logout", "你已成功退出");
+        request.setAttribute("success", "你已成功退出");
         session.invalidate();
         System.out.println("成功退出");
         return "redirect:/";
@@ -60,7 +59,7 @@ public class StudentController {
     @RequestMapping("/check")
     public String check(HttpServletRequest servletRequest){
 
-        servletRequest.setAttribute("check", "查看信息");
+//        servletRequest.setAttribute("check", "查看信息");
         return "check";
     }
 
@@ -89,12 +88,11 @@ public class StudentController {
     }
 
     @RequestMapping("/update")
-    public String update(HttpSession session, String username, String age, String phone, String email,String date, String idNum, String sex, String introduce){
+    public String update(HttpSession session, HttpServletRequest request, String username, String age, String phone, String email, String date, String idNum, String sex, String introduce){
         Student student = (Student) session.getAttribute("USER_SESSION");       //获取当前用户id
         Integer id = student.getId();
-        System.out.println("introduce: " + introduce);
         studentService.update(username, age, phone, email, date, idNum,  sex, introduce, id);
-//        studentService.
+        request.setAttribute("success", "信息已更新");
         System.out.println("更新信息");
         return "index";
     }
@@ -113,7 +111,7 @@ public class StudentController {
     }
 
 
-    @RequestMapping("/isRegistration")
+    @RequestMapping("/isRegistered")
     public @ResponseBody String isRegistered(Integer num) {
         System.out.println("num is: "+ num);
         Student student = studentService.checkUser(num);            // 查看数据库是否存在该账号

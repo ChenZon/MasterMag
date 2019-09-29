@@ -50,10 +50,14 @@
     });
 
 
-    <%--layui.use('layer', function(){--%>
-        <%--var layer = layui.layer;--%>
-        <%--layer.msg("${requestScope.success}");         //重要--%>
-    <%--});--%>
+    layui.use('layer', function(){
+        var layer = layui.layer;
+        if("${requestScope.success}" != "" )
+        {
+            layer.msg("${requestScope.success}");         //重要
+        }
+
+    });
 </script>
 
 <script>

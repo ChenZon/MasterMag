@@ -23,27 +23,20 @@ public class LoginInterceptor implements HandlerInterceptor {
 
         }
 
-
         //以下页面不拦截
-        if ((url.indexOf("/login") >= 0 || url.indexOf("/register") >= 0) && user == null){
+        if ((url.indexOf("/login") >= 0 || url.indexOf("/register") >= 0 || url.indexOf("/isRegistered") >= 0 || url.indexOf("/create") >= 0 ) && user == null){
             System.out.println(url);
             return true;
         }
-
-//        if (true) {
-//            return true;
-//        }
-
 
         if (user != null) {
             return true;
         }
 
-        request.setAttribute("msg", "你还没有登录，不要搞事！");
-        System.out.println("不要搞事");
+
+
         request.getRequestDispatcher("/").forward(request, response);
-//        response.sendRedirect(request.getContextPath()+"/");
-        System.out.println("不要搞事。。。。。。。。");
+        System.out.println("不要搞事---url: "+ url);
         return false;
     }
     @Override

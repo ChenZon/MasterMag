@@ -35,7 +35,7 @@
 </head>
 <body>
 
-    <div style="color: red">${errMsg}</div>
+    <%--<div style="color: red">${errMsg}</div>--%>
 <div class="login">
     <div>
         <h2 class="system">研究生管理系统</h2>
@@ -76,6 +76,20 @@
 </div>
 
 <script src="/static/plugins/layui/layui.js"></script>
+<script>
+    layui.use('layer', function(){
+        var layer = layui.layer;
+        if("${requestScope.error}" != "" )
+        {
+            layer.msg("${requestScope.error}");         //重要
+        }
+        if("${requestScope.success}" != "" )
+        {
+            layer.msg("${requestScope.success}");         //重要
+        }
+
+    });
+</script>
 
 </body>
 </html>

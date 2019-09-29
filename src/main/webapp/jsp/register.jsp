@@ -39,7 +39,7 @@
             <!-- 对号 -->
             <div class="layui-inline layui-icon ">
                 <%--<i class="layui-icon " id="ri" style="color: green;font-weight: bolder;" hidden></i>--%>
-                <i class="layui-icon-ok layui-icon " id="ri" style="color: green;font-weight: bolder;" hidden></i>
+                <i class="layui-icon-ok layui-icon " id="ri" style="color: green;font-weight: bolder;" hidden> </i>
             </div>
             <!-- 错号 -->
             <div class="layui-inline">
@@ -96,7 +96,7 @@
             var user = $(this).val();
 
             $.ajax({
-                url:'${ctx}/stu/isRegistration',
+                url:'${ctx}/stu/isRegistered',
                 type:'post',
                 dataType:'text',
                 // data:{user:user},
