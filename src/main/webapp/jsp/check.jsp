@@ -39,7 +39,7 @@
                 <div class="layui-form-item">
                     <label class="layui-form-label">昵称</label>
                     <div class="layui-input-inline">
-                        <input type="text" name="username" lay-verify="required" lay-reqtext="用户名是必填项，岂能为空？" placeholder="${USER_SESSION.username}" autocomplete="off" class="layui-input">
+                        <input type="text" name="username" lay-verify="required" lay-reqtext="用户名是必填项，岂能为空？" value="${USER_SESSION.username}" placeholder="${USER_SESSION.username}" autocomplete="off" class="layui-input">
                     </div>
                 </div>
 
@@ -48,7 +48,7 @@
                         <label class="layui-form-label">出生日期</label>
                         <div class="layui-input-block">
                             <%--<input type="text" name="age" id="date2" autocomplete="off" class="layui-input">--%>
-                            <input type="text" name="age" id="date2" autocomplete="off" placeholder="${USER_SESSION.age}" class="layui-input">
+                            <input type="text" name="age" id="date2" autocomplete="off" value="${USER_SESSION.age}" placeholder="${USER_SESSION.age}" class="layui-input">
                         </div>
                     </div>
                 </div>
@@ -57,7 +57,7 @@
                     <div class="layui-inline">
                         <label class="layui-form-label">手机号码</label>
                         <div class="layui-input-inline">
-                            <input type="text" name="phone" lay-verify="required|phone" placeholder="${USER_SESSION.phone}" autocomplete="off" class="layui-input">
+                            <input type="text" name="phone" lay-verify="required|phone" value="${USER_SESSION.phone}" placeholder="${USER_SESSION.phone}" autocomplete="off" class="layui-input">
                         </div>
                     </div>
                 </div>
@@ -66,7 +66,7 @@
                     <div class="layui-inline">
                         <label class="layui-form-label">邮箱</label>
                         <div class="layui-input-inline">
-                            <input type="text" name="email" lay-verify="email" placeholder="${USER_SESSION.email}" autocomplete="off" class="layui-input">
+                            <input type="text" name="email" lay-verify="email" value="${USER_SESSION.email}" placeholder="${USER_SESSION.email}" autocomplete="off" class="layui-input">
                         </div>
                     </div>
                 </div>
@@ -75,7 +75,7 @@
                     <div class="layui-inline">
                         <label class="layui-form-label">入学日期</label>
                         <div class="layui-input-block">
-                            <input type="text" name="date" id="date1" autocomplete="off" placeholder="${USER_SESSION.date}" class="layui-input">
+                            <input type="text" name="date" id="date1" autocomplete="off" value="${USER_SESSION.date}" placeholder="${USER_SESSION.date}"  class="layui-input">
                         </div>
                     </div>
                 </div>
@@ -83,7 +83,7 @@
                 <div class="layui-form-item">
                     <label class="layui-form-label">身份证号码</label>
                     <div class="layui-input-inline">
-                        <input type="text" name="idNum" lay-verify="identity" placeholder="${USER_SESSION.idNum}"  autocomplete="off" class="layui-input">
+                        <input type="text" name="idNum" lay-verify="identity" value="${USER_SESSION.idNum}" placeholder="${USER_SESSION.idNum}" autocomplete="off" class="layui-input">
                     </div>
                 </div>
 

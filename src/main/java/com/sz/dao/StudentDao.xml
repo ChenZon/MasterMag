@@ -47,14 +47,8 @@
     </select>
 
     <select id="createUser" resultType="com.sz.pojo.Student">
-      insert into student (num, password)
-                VALUES (#{num}, #{password});
-    </select>
-    <select id="check" resultType="com.sz.pojo.Student">
-        select *
-        from student
-        where
-        id = #{id}
+      insert into student (num, password, t_id)
+                VALUES (#{num}, #{password}, 1);
     </select>
 
     <select id="findTeacher" resultType="com.sz.pojo.Teacher" resultMap="teacherDetail">
@@ -62,6 +56,10 @@
         FROM student s, teacher t
         WHERE s.t_id = t.id
         and s.id = #{id}
+    </select>
+
+    <select id="checkUser" resultType="com.sz.pojo.Student">    <!-- 检查用户账号是否注册过 -->
+        select * from student where num = #{num}
     </select>
     <resultMap id="teacherDetail" type="com.sz.pojo.Teacher">                   <!-- 次  -->
         <id property="id" column="id"/>

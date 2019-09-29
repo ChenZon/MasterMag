@@ -6,7 +6,6 @@ $pwd = $_POST['password'];
 
 #连接数据库
 $db = new mysqli('localhost','root','','111111');
-echo "in reg page";
 
 #设置查询数据格式
 $db->query("SET NAMES UTF8");

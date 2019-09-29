@@ -15,4 +15,6 @@ public interface StudentDao {
     void update(@Param("username")String username, @Param("age")String age, @Param("phone")String phone, @Param("email")String email, @Param("date")String date, @Param("idNum")String idNum, @Param("sex")String sex, @Param("introduce")String introduce, @Param("id")Integer id);
 
     Teacher findTeacher(@Param("id")Integer id);
+
+    Student checkUser(@Param("num")Integer num);
 }

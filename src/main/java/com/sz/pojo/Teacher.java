@@ -103,14 +103,5 @@ public class Teacher {
         this.position = position;
     }
 
-    @Override
-    public String toString() {
-        return "Teacher{" +
-                "id=" + id +
-                ", age=" + age +
-                ", name='" + name + '\'' +
-                ", address='" + address + '\'' +
-                ", tranningPlan='" + tranningPlan + '\'' +
-                '}';
-    }
+
 }

@@ -15,4 +15,6 @@ public interface StudentService {
     void update(String username, String age, String phone, String email, String date, String idNum, String sex, String introduce, Integer id);
 
     Teacher findTeacher(@Param("id")Integer id);
+
+    Student checkUser(Integer num);
 }

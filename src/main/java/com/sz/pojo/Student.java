@@ -3,8 +3,6 @@ package com.sz.pojo;
 
 public class Student {
 
-//    private Teacher teacher;
-
     private Integer id;
 
     private Integer num;

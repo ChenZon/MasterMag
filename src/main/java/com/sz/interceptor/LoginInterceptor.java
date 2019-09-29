@@ -30,6 +30,10 @@ public class LoginInterceptor implements HandlerInterceptor {
             return true;
         }
 
+//        if (true) {
+//            return true;
+//        }
+
 
         if (user != null) {
             return true;

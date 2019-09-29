@@ -8,8 +8,8 @@ import org.springframework.http.HttpRequest;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.ModelAndView;
-
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
 
@@ -56,13 +56,7 @@ public class StudentController {
         return "login";
     }
 
-//    @RequestMapping("/check")
-//    public ModelAndView check(){
-//
-//        String text = "查看信息!";
-//        ModelAndView modelAndView = new ModelAndView("check","check",text);
-//        return modelAndView;
-//    }
+
     @RequestMapping("/check")
     public String check(HttpServletRequest servletRequest){
 
@@ -71,7 +65,12 @@ public class StudentController {
     }
 
     @RequestMapping("/stuMessage")
-    public String stuMessage(){
+    public String stuMessage(HttpSession session) {
+        Student student = (Student) session.getAttribute("USER_SESSION");
+        student = studentService.findUser(student.getNum(), student.getPassword());
+        if (student != null) {
+            session.setAttribute("USER_SESSION", student);
+        }
         System.out.println("查看个人信息");
         return "stuMessage";
     }
@@ -95,8 +94,16 @@ public class StudentController {
         Integer id = student.getId();
         System.out.println("introduce: " + introduce);
         studentService.update(username, age, phone, email, date, idNum,  sex, introduce, id);
+//        studentService.
         System.out.println("更新信息");
         return "index";
+    }
+
+    @RequestMapping("/create")
+    public @ResponseBody String create(HttpSession session, String num, String password) {
+        int n = Integer.valueOf(num);
+        studentService.createUser(n, password);
+        return "1";
     }
 
     @RequestMapping("/apply")
@@ -106,4 +113,14 @@ public class StudentController {
     }
 
 
+    @RequestMapping("/isRegistration")
+    public @ResponseBody String isRegistered(Integer num) {
+        System.out.println("num is: "+ num);
+        Student student = studentService.checkUser(num);            // 查看数据库是否存在该账号
+        if (student != null){
+            return "0";
+        }else {
+            return "1";
+        }
+    }
 }

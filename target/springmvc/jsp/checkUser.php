@@ -1,11 +1,12 @@
 <?php
 
+echo "where are you.";
+
 //接收表单数据
 $user = $_POST['num'];
-echo "hhhhhhhhhhhhhhhhhhhhhh..................";
 
 //数据库连接语句, 参数包含:服务器地址,用户名,登录密码,数据库名称,默认端口)
-$db = new mysqli('localhost','root','','stusystem','3306');
+$db = new mysqli('localhost','root','111111','stusystem','3306');
 //判断是否成功连接数据库
 if (mysqli_connect_error()) {
     echo '0';
@@ -29,3 +30,4 @@ if ($na == null){
     echo '0';
 }
 ?>
+

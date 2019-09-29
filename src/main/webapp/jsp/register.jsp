@@ -29,11 +29,12 @@
     <header class="layui-elip" style="width: 82%">注册页</header>
 
     <!-- 表单选项 -->
+
     <form class="layui-form" action="${ctx}/stu/register" method="post">
         <div class="layui-input-inline">
             <!-- 用户名 -->
             <div class="layui-inline" style="width: 85%">
-                <input type="text" id="user" name="num" required  lay-verify="required" placeholder="请输入账号" autocomplete="off" class="layui-input">
+                <input type="number" id="user" name="num" required  lay-verify="required" placeholder="请输入账号" autocomplete="off" class="layui-input">
             </div>
             <!-- 对号 -->
             <div class="layui-inline layui-icon ">
@@ -95,17 +96,19 @@
             var user = $(this).val();
 
             $.ajax({
-                url:'checkUser.php',
+                url:'${ctx}/stu/isRegistration',
                 type:'post',
                 dataType:'text',
-                data:{user:user},
+                // data:{user:user},
+                data:{
+                    num:$('#user').val(),
+                },
                 //验证用户名是否可用
                 success:function(data){
+
                     if (data == 1) {
                         $('#ri').removeAttr('hidden');
                         $('#wr').attr('hidden','hidden');
-
-
                     } else {
                         $('#wr').removeAttr('hidden');
                         $('#ri').attr('hidden','hidden');
@@ -118,7 +121,7 @@
 
         });
 
-        // you code ...
+
         // 为密码添加正则验证
         $('#pwd').blur(function() {
             var reg = /^[\w]{6,12}$/;
@@ -148,17 +151,20 @@
         //添加表单监听事件,提交注册信息
         form.on('submit(sub)', function() {
             $.ajax({
-                url:'reg.php',
+                url:'${ctx}/stu/create',
                 type:'post',
                 dataType:'text',
                 data:{
-                    user:$('#user').val(),
-                    pwd:$('#pwd').val(),
+                    num:$('#user').val(),
+                    password:$('#pwd').val(),
                 },
                 success:function(data){
                     if (data == 1) {
                         layer.msg('注册成功');
-                        ///location.href = "login.html";
+                        setTimeout(function() {
+                            location.href = "/jsp/login.jsp";
+                        }, 2000);
+
                     }else {
                         layer.msg('注册失败');
                     }

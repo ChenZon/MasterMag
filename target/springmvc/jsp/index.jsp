@@ -21,9 +21,9 @@
 
     <jsp:include page="${ctx}/common/header.jsp"/>
     <%--<div class="layui-body" style="background-image: url(/static/img/background-3.jpg)">--%>
-    <div class="layui-body" style="background-color: rgba(58,59,7,0.36)">
+    <div class="layui-body" style="background-color: rgba(39,59,4,0.06)">
         <!-- 内容主体区域 -->
-        <div class="carousel" style="margin-left: 13%; margin-top: 8%">
+        <div class="carousel" style="margin-left: 13%; margin-top: 5%">
             <div class="layui-carousel" id="test1">
                 <div carousel-item>
                     <div><img src="/static/img/background-4.jpg" style="width: 100%"></div>
