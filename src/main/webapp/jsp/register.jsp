@@ -26,19 +26,22 @@
 <body>
 
 <div class="login-main">
-    <header class="layui-elip" style="width: 82%">注册页</header>
+    <header class="layui-elip" style="width: 82%; font-family: 宋体;letter-spacing: 13px;">注册</header>
+
+    <hr class="layui-bg-orange" style="width: 91%">
+    <br/>
 
     <!-- 表单选项 -->
 
     <form class="layui-form" action="${ctx}/stu/register" method="post">
         <div class="layui-input-inline">
             <!-- 用户名 -->
+            <i class="layui-icon layui-icon-user" style="font-size: 20px; color: #ffee00;"></i>
             <div class="layui-inline" style="width: 85%">
-                <input type="number" id="user" name="num" required  lay-verify="required" placeholder="请输入账号" autocomplete="off" class="layui-input">
+                <input type="number" id="user" name="num" lay-verify="required" placeholder="请输入账号" autocomplete="off" class="layui-input">
             </div>
             <!-- 对号 -->
             <div class="layui-inline layui-icon ">
-                <%--<i class="layui-icon " id="ri" style="color: green;font-weight: bolder;" hidden></i>--%>
                 <i class="layui-icon-ok layui-icon " id="ri" style="color: green;font-weight: bolder;" hidden> </i>
             </div>
             <!-- 错号 -->
@@ -48,6 +51,7 @@
         </div>
         <!-- 密码 -->
         <div class="layui-input-inline">
+            <i class="layui layui-icon layui-icon-password" style="font-size: 20px; color: #ffee00;"></i>
             <div class="layui-inline" style="width: 85%">
                 <input type="password" id="pwd" name="password" required  lay-verify="required" placeholder="请输入密码" autocomplete="off" class="layui-input">
             </div>
@@ -62,6 +66,7 @@
         </div>
         <!-- 确认密码 -->
         <div class="layui-input-inline">
+            <i class="layui layui-icon layui-icon-password" style="font-size: 20px; color: #ffee00;"></i>
             <div class="layui-inline" style="width: 85%">
                 <input type="password" id="rpwd" name="repassword" required  lay-verify="required" placeholder="请确认密码" autocomplete="off" class="layui-input">
             </div>
@@ -76,10 +81,10 @@
         </div>
 
 
-        <div class="layui-input-inline login-btn" style="width: 85%">
+        <div class="layui-input-inline login-btn" style="width: 90px; margin-left: 35%">
             <button type="submit" lay-submit lay-filter="sub" class="layui-btn layui-btn-warm">注册</button>
         </div>
-        <hr style="width: 85%" />
+        <hr style="width: 91%" />
         <p style="width: 85%"><a href="login.jsp" class="fl">已有账号？立即登录</a><a href="javascript:;" class="fr">忘记密码？</a></p>
     </form>
 </div>

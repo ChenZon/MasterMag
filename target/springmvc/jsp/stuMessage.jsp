@@ -78,41 +78,6 @@
                 </table>
             </div>
         </div>
-        <div>d</div>
-        <div>d</div>
-        <div>d</div>
-        <div>d</div>
-        <div>d</div>
-        <div>d</div>
-        <div>d</div>
-        <div>d</div>
-        <div>d</div>
-        <div>d</div>
-        <div>d</div>
-        <div>d</div>
-        <div>d</div>
-        <div>d</div>
-        <div>d</div>
-        <div>d</div>
-        <div>d</div>
-        <div>aaaa</div>
-        <div>aaaa</div>
-        <div>aaaa</div>
-        <div>aaaa</div>
-        <div>aaaa</div>
-        <div>aaaa</div>
-        <div>aaaa</div>
-        <div>aaaa</div>
-        <div>aaaa</div>
-        <div>aaaa</div>
-        <div>aaaa</div>
-        <div>aaaa</div>
-        <div>aaaa</div>
-        <div>aaaa</div>
-        <div>aaaa</div>
-        <div>aaaa</div>
-        <div>aaaa</div>
-        <div>aaaa</div>
 
         <jsp:include page="${ctx}/common/footer.jsp"/>
 </div>

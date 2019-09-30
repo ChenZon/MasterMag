@@ -29,6 +29,13 @@ public class LoginInterceptor implements HandlerInterceptor {
             return true;
         }
 
+        if (user != null) {
+            return true;
+        }
+
+
+
+
 
         request.getRequestDispatcher("/").forward(request, response);
         System.out.println("不要搞事---url: "+ url);

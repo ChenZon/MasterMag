@@ -58,7 +58,6 @@
             <div class="layui-input-block">
                 <input type="password" name="password" lay-verify="pass" placeholder="请输入密码" autocomplete="off" class="layui-input">
             </div>
-            <%--<div class="layui-form-mid layui-word-aux">请填写6到12位密码</div>--%>
         </div>
 
         <br/>
