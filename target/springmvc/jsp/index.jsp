@@ -16,14 +16,15 @@
     <%--<script src="/static/plugins/layui/layui.js"></script>--%>
 
 </head>
-<body class="layui-layout-body" >
+<body class="layui-layout" >
 <div class="layui-layout layui-layout-admin">
 
     <jsp:include page="${ctx}/common/header.jsp"/>
-    <%--<div class="layui-body" style="background-image: url(/static/img/background-3.jpg)">--%>
-    <div class="layui-body" style="background-color: rgba(39,59,4,0.06)">
+    <%--<div class="layui-body" style="background-color: rgba(39,59,4,0.06)">--%>
+    <div class="layui" style="background-color: rgba(39,59,4,0.06)">
         <!-- 内容主体区域 -->
-        <div class="carousel" style="margin-left: 13%; margin-top: 5%">
+        <%--<div class="carousel" style="margin-left: 17%; margin-top: 5%">--%>
+        <div class="carousel" style="margin-left: 17%; margin-top: 5%">
             <div class="layui-carousel" id="test1">
                 <div carousel-item>
                     <div><img src="/static/img/background-4.jpg" style="width: 100%"></div>

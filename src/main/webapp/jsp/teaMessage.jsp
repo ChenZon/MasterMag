@@ -16,13 +16,13 @@
 
 
 </head>
-<body class="layui-layout-body" >
+<body class="layui-layout" >
 <div class="layui-layout layui-layout-admin">
 
 
     <jsp:include page="${ctx}/common/header.jsp"/>
 
-    <div class="layui-body">
+    <div class="layui">
 
         <div class="body" style="background-image: url(/static/img/background-2.jpg)">
             <div class="table" style="background-color: red">

@@ -30,8 +30,8 @@
             <if test="sex != null and sex != ''">
                 sex = #{sex},
             </if>
-            <if test="introduce">
-                sex = #{sex},
+            <if test="introduce != null and introduce != ''">
+                introduce = #{introduce},
             </if>
         </set>
         where id = #{id}

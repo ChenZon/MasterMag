@@ -16,17 +16,15 @@
     <link rel="stylesheet" type="text/css" href="/static/plugins/layui/css/layui.css">
 
 </head>
-<body class="layui-layout-body" >
+<body class="layui-layout" >
 <div class="layui-layout layui-layout-admin">
 
 
     <jsp:include page="${ctx}/common/header.jsp"/>
-    <div class="layui-body">
+    <div class="layui">
 
-        <%--<div class="body" style="padding: 100px; background-image: url(/static/img/background.jpg)">--%>
         <div class="body" style="background-image: url(/static/img/background.jpg); background-attachment: fixed">
-            <div style="padding: auto">完善个人信息</div>
-            <form class="layui-form" action="${ctx}/stu/update" style="padding-left: 25%; padding-top: 2%; padding-bottom: 2%" method="post">
+            <form class="layui-form" action="${ctx}/stu/update" style="padding-left: 35%; padding-top: 2%; padding-bottom: 2%" method="post">
 
 
                 <div class="layui-form-item">
@@ -162,8 +160,8 @@
         var layer = layui.layer;
 
         // 为密码添加正则验证
-        var pass = 0;                       //标志位
-        var rpass = 0;
+        var pass = 1;                       //标志位
+        var rpass = 1;
         $('#password').blur(function () {
             var reg = /^[\w]{6,12}$/;
             if (!($('#password').val().match(reg))) {

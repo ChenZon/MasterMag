@@ -9,28 +9,25 @@
     <list default="true" id="8256b853-9598-47d4-97a7-b8f8ed3dd524" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/needSolve.txt" beforeDir="false" afterPath="$PROJECT_DIR$/needSolve.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sz/controller/StudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sz/controller/StudentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sz/dao/StudentDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sz/dao/StudentDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/sz/dao/StudentDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sz/dao/StudentDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sz/service/StudentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sz/service/StudentService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sz/service/impl/StudentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sz/service/impl/StudentServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sz/interceptor/LoginInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sz/interceptor/LoginInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/common/footer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/common/footer.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/common/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/common/header.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/jsp/apply.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/jsp/apply.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/jsp/check.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/jsp/check.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/jsp/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/jsp/register.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/jsp/checkUser.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/jsp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/jsp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/jsp/reg.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/jsp/stuMessage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/jsp/stuMessage.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sz/controller/StudentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sz/controller/StudentController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sz/dao/StudentDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sz/dao/StudentDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sz/dao/StudentDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sz/dao/StudentDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sz/service/StudentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sz/service/StudentService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/sz/service/impl/StudentServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/sz/service/impl/StudentServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/springmvc/WEB-INF/classes/com/sz/controller/StudentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/springmvc/WEB-INF/classes/com/sz/controller/StudentController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/springmvc/WEB-INF/classes/com/sz/dao/StudentDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/springmvc/WEB-INF/classes/com/sz/dao/StudentDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/springmvc/WEB-INF/classes/com/sz/dao/StudentDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/springmvc/WEB-INF/classes/com/sz/dao/StudentDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/springmvc/WEB-INF/classes/com/sz/service/StudentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/springmvc/WEB-INF/classes/com/sz/service/StudentService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/springmvc/WEB-INF/classes/com/sz/service/impl/StudentServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/springmvc/WEB-INF/classes/com/sz/service/impl/StudentServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/jsp/teaMessage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/jsp/teaMessage.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/springmvc/common/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/springmvc/common/header.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/springmvc/jsp/apply.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/springmvc/jsp/apply.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/springmvc/jsp/check.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/springmvc/jsp/check.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/springmvc/jsp/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/springmvc/jsp/register.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/springmvc/jsp/checkUser.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/springmvc/jsp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/springmvc/jsp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/springmvc/jsp/reg.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/springmvc/jsp/stuMessage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/springmvc/jsp/stuMessage.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/springmvc/jsp/teaMessage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/springmvc/jsp/teaMessage.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -43,41 +40,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="StudentController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/sz/controller/StudentController.java">
+      <file leaf-file-name="check.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/check.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="91" column="96" selection-start-line="91" selection-start-column="87" selection-end-line="91" selection-end-column="96" />
+            <state relative-caret-position="200">
+              <caret line="8" column="15" lean-forward="true" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="check.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/check.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1181">
-              <caret line="164" column="49" selection-start-line="164" selection-start-column="49" selection-end-line="164" selection-end-column="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="header.jsp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="header.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/common/header.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+            <state relative-caret-position="100">
+              <caret line="19" column="34" lean-forward="true" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="register.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/register.jsp">
+      <file leaf-file-name="nav.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/nav.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="385">
-              <caret line="163" column="65" lean-forward="true" selection-start-line="163" selection-start-column="65" selection-end-line="163" selection-end-column="65" />
+            <state relative-caret-position="1824">
+              <caret line="121" column="7" selection-start-line="121" selection-start-column="7" selection-end-line="121" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoginInterceptor.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/sz/interceptor/LoginInterceptor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="29" column="9" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -100,7 +97,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>编辑</find>
       <find>email</find>
       <find>获取</find>
       <find>id</find>
@@ -128,8 +124,9 @@
       <find>student</find>
       <find>check</find>
       <find>pwd</find>
-      <find>update</find>
       <find>text</find>
+      <find>update</find>
+      <find>style</find>
     </findStrings>
     <replaceStrings>
       <replace>sus</replace>
@@ -145,7 +142,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/resources/db.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/sz/dao/CustomerDao.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/jsp/logout.jsp" />
         <option value="$PROJECT_DIR$/pom.xml" />
@@ -175,27 +171,28 @@
         <option value="$PROJECT_DIR$/src/main/webapp/jsp/test.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/static/json/users.json" />
         <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/jsp/teaMessage.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/sz/pojo/Teacher.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sz/pojo/Student.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/jsp/reg.php" />
         <option value="$PROJECT_DIR$/src/main/webapp/checkUser.php" />
-        <option value="$PROJECT_DIR$/src/main/webapp/common/footer.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/jsp/checkUser.php" />
-        <option value="$PROJECT_DIR$/src/main/webapp/jsp/apply.jsp" />
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/jsp/index.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/jsp/login.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sz/interceptor/LoginInterceptor.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sz/service/StudentService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sz/dao/StudentDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sz/dao/StudentDao.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/sz/service/impl/StudentServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/jsp/register.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/sz/controller/StudentController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/jsp/stuMessage.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/jsp/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/jsp/teaMessage.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/jsp/apply.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/common/footer.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sz/dao/StudentDao.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/jsp/check.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/common/header.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/jsp/nav.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sz/interceptor/LoginInterceptor.java" />
       </list>
     </option>
   </component>
@@ -227,8 +224,8 @@
     <servers />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="133" />
-    <option name="y" value="90" />
+    <option name="x" value="117" />
+    <option name="y" value="298" />
     <option name="width" value="1555" />
     <option name="height" value="625" />
   </component>
@@ -517,12 +514,12 @@
       <workItem from="1569550720210" duration="1003000" />
       <workItem from="1569552452364" duration="5469000" />
       <workItem from="1569717815801" duration="13614000" />
-      <workItem from="1569802239412" duration="10265000" />
+      <workItem from="1569802239412" duration="17663000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="161682000" />
+    <option name="totallyTimeSpent" value="169080000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -547,10 +544,10 @@
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.0" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3218232" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20963542" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20963542" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -574,9 +571,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/plugins/layui/images/face/25.gif">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/static/plugins/layui/images/face/26.gif">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -653,13 +647,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/teaMessage.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1275">
-          <caret line="51" column="48" selection-start-line="51" selection-start-column="48" selection-end-line="51" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -678,13 +665,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
           <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/common/footer.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -709,13 +689,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/apply.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="127" column="26" lean-forward="true" selection-start-line="127" selection-start-column="26" selection-end-line="127" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/sz/pojo/Student.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25">
@@ -737,27 +710,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/login.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="85" column="44" lean-forward="true" selection-start-line="85" selection-start-column="44" selection-end-line="85" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="499">
-          <caret line="59" column="7" lean-forward="true" selection-start-line="52" selection-start-column="4" selection-end-line="59" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sz/interceptor/LoginInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="29" column="9" lean-forward="true" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/sz/service/StudentService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -772,17 +724,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sz/dao/StudentDao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="27" column="24" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/sz/service/impl/StudentServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="33" column="52" selection-start-line="33" selection-start-column="52" selection-end-line="33" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2125">
+          <caret line="85" column="44" lean-forward="true" selection-start-line="85" selection-start-column="44" selection-end-line="85" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/register.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="24" column="7" lean-forward="true" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -796,31 +755,79 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/stuMessage.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="649">
-          <caret line="78" column="18" lean-forward="true" selection-start-line="78" selection-start-column="18" selection-end-line="78" selection-end-column="18" />
+        <state relative-caret-position="450">
+          <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/register.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/teaMessage.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="163" column="65" lean-forward="true" selection-start-line="163" selection-start-column="65" selection-end-line="163" selection-end-column="65" />
+        <state relative-caret-position="225">
+          <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/apply.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/common/footer.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sz/dao/StudentDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="33" column="41" lean-forward="true" selection-start-line="33" selection-start-column="41" selection-end-line="33" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/stuMessage.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/check.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1181">
-          <caret line="164" column="49" selection-start-line="164" selection-start-column="49" selection-end-line="164" selection-end-column="49" />
+        <state relative-caret-position="200">
+          <caret line="8" column="15" lean-forward="true" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/common/header.jsp">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="19" column="34" lean-forward="true" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/nav.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1824">
+          <caret line="121" column="7" selection-start-line="121" selection-start-column="7" selection-end-line="121" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sz/interceptor/LoginInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+          <caret line="29" column="9" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
         </state>
       </provider>
     </entry>

@@ -16,12 +16,12 @@
     <%--<script src="/static/plugins/layui/layui.js"></script>--%>
 
 </head>
-<body class="layui-layout-body" >
+<body class="layui-layout" >
 <div class="layui-layout layui-layout-admin">
 
 
     <jsp:include page="${ctx}/common/header.jsp"/>
-    <div class="layui-body" style="background-image: url(/static/img/background-3.jpg)">
+    <div class="layui">
         <!-- 内容主体区域 -->
         <%--<div style="padding: 15px;">首页</div>--%>
 
@@ -45,11 +45,6 @@
 
     });
 
-
-    <%--layui.use('layer', function(){--%>
-    <%--var layer = layui.layer;--%>
-    <%--layer.msg("${requestScope.success}");         //重要--%>
-    <%--});--%>
 </script>
 
 <script type="text/html" id="toolbarDemo">
