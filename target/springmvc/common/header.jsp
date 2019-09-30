@@ -10,7 +10,7 @@
 
 
 <%--<div class="layui-header layui-bg-cyan">--%>
-<div class="layui-header layui-bg-orange">
+<div class="layui-header">
     <div class="layui-logo"><a href="${ctx}/jsp/index.jsp">研究生管理系统</a></div>
     <!-- 头部区域（可配合layui已有的水平导航） -->
     <ul class="layui-nav layui-layout-left">

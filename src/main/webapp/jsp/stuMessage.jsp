@@ -69,7 +69,7 @@
                     </tr>
                     </tr>
                         <td>性别</td>
-                        <td>${USER_SESSION.age}</td>
+                        <td>${USER_SESSION.sex}</td>
                     </tr>
                         <td>自我描述</td>
                         <td>${USER_SESSION.introduce}</td>

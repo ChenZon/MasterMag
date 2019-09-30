@@ -50,7 +50,6 @@ public class StudentController {
     @RequestMapping("/register")
     public String register(Integer num, String password){
         Student student = studentService.createUser(num, password);
-        System.out.println(student);
         System.out.println("注册成功");
         return "login";
     }
@@ -82,16 +81,15 @@ public class StudentController {
 
         model.addAttribute("teaDetail", teacher);
 
-        System.out.println(teacher);
         System.out.println("查看导师信息");
         return "teaMessage";
     }
 
     @RequestMapping("/update")
-    public String update(HttpSession session, HttpServletRequest request, String username, String age, String phone, String email, String date, String idNum, String sex, String introduce){
+    public String update(HttpSession session, HttpServletRequest request, String username, String age, String phone, String email, String date, String idNum, String password, String sex, String introduce){
         Student student = (Student) session.getAttribute("USER_SESSION");       //获取当前用户id
         Integer id = student.getId();
-        studentService.update(username, age, phone, email, date, idNum,  sex, introduce, id);
+        studentService.update(username, age, phone, email, date, idNum, password, sex, introduce, id);
         request.setAttribute("success", "信息已更新");
         System.out.println("更新信息");
         return "index";

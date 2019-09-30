@@ -89,12 +89,13 @@
         var form   = layui.form;
         var $      = layui.jquery;
         var layer  = layui.layer;
-
+        var pass = 0;
+        var name = 0;
+        var rpass = 0;
         //添加表单失焦事件
         //验证表单
         $('#user').blur(function() {
             var user = $(this).val();
-
             $.ajax({
                 url:'${ctx}/stu/isRegistered',
                 type:'post',
@@ -105,75 +106,72 @@
                 },
                 //验证用户名是否可用
                 success:function(data){
-
                     if (data == 1) {
                         $('#ri').removeAttr('hidden');
                         $('#wr').attr('hidden','hidden');
+                        name = 1;
                     } else {
                         $('#wr').removeAttr('hidden');
                         $('#ri').attr('hidden','hidden');
+                        name = 0;
                         layer.msg('当前用户名已被占用! ')
-
                     }
-
                 }
             })
-
         });
-
-
         // 为密码添加正则验证
         $('#pwd').blur(function() {
             var reg = /^[\w]{6,12}$/;
             if(!($('#pwd').val().match(reg))){
                 $('#pwr').removeAttr('hidden');
                 $('#pri').attr('hidden','hidden');
+                pass = 0;
                 layer.msg('请输入合法密码');
             }else {
                 $('#pri').removeAttr('hidden');
                 $('#pwr').attr('hidden','hidden');
+                pass = 1;
             }
         });
-
         //验证两次密码是否一致
         $('#rpwd').blur(function() {
             if($('#pwd').val() != $('#rpwd').val()){
                 $('#rpwr').removeAttr('hidden');
                 $('#rpri').attr('hidden','hidden');
+                rpass = 0;
                 layer.msg('两次输入密码不一致!');
             }else {
                 $('#rpri').removeAttr('hidden');
                 $('#rpwr').attr('hidden','hidden');
+                rpass = 1;
             };
         });
-
         //
         //添加表单监听事件,提交注册信息
         form.on('submit(sub)', function() {
-            $.ajax({
-                url:'${ctx}/stu/create',
-                type:'post',
-                dataType:'text',
-                data:{
-                    num:$('#user').val(),
-                    password:$('#pwd').val(),
-                },
-                success:function(data){
-                    if (data == 1) {
-                        layer.msg('注册成功');
-                        setTimeout(function() {
-                            location.href = "/jsp/login.jsp";
-                        }, 2000);
+            if (pass == 1 && name == 1 && rpass == 1){
+                $.ajax({
+                    url:'${ctx}/stu/create',
+                    type:'post',
+                    dataType:'text',
+                    data:{
+                        num:$('#user').val(),
+                        password:$('#pwd').val(),
+                    },
+                    success:function(){
+                            layer.msg('注册成功');
+                            setTimeout(function() {
+                                location.href = "/jsp/login.jsp";
+                            }, 2000);
+                        }
+                })
+            }else {
+                layer.msg('注册失败');
+            }
 
-                    }else {
-                        layer.msg('注册失败');
-                    }
-                }
-            })
             //防止页面跳转
             return false;
         });
-
     });
 </script>
 </body>

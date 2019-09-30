@@ -12,7 +12,7 @@ public interface StudentDao {
 
     Student createUser(@Param("num")Integer num, @Param("password")String password);
 
-    void update(@Param("username")String username, @Param("age")String age, @Param("phone")String phone, @Param("email")String email, @Param("date")String date, @Param("idNum")String idNum, @Param("sex")String sex, @Param("introduce")String introduce, @Param("id")Integer id);
+    void update(@Param("username")String username, @Param("age")String age, @Param("phone")String phone, @Param("email")String email, @Param("date")String date, @Param("idNum")String idNum, @Param("password")String password, @Param("sex")String sex, @Param("introduce")String introduce, @Param("id")Integer id);
 
     Teacher findTeacher(@Param("id")Integer id);
 

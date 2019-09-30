@@ -12,7 +12,7 @@ public interface StudentService {
     Student createUser(Integer num, String password);
 
 
-    void update(String username, String age, String phone, String email, String date, String idNum, String sex, String introduce, Integer id);
+    void update(String username, String age, String phone, String email, String date, String idNum, String password, String sex, String introduce, Integer id);
 
     Teacher findTeacher(@Param("id")Integer id);
 
