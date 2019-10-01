@@ -23,9 +23,10 @@
     <jsp:include page="${ctx}/common/header.jsp"/>
     <div class="layui">
         <!-- 内容主体区域 -->
-        <%--<div style="padding: 15px;">首页</div>--%>
 
-        <div class="table" style="padding: 2%;">
+
+        <%--<div class="table" style="padding: 2%;">--%>
+        <div class="table">
             <table class="layui-hide" id="test" lay-filter="test"></table>
         </div>
 

@@ -114,7 +114,6 @@ public class StudentController {
         if (num == null){
             return "0";
         }
-        System.out.println("num is: "+ num);
         Student student = studentService.checkUser(num);            // 查看数据库是否存在该账号
         if (student != null){
             return "0";
